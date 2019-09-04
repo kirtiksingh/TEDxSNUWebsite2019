@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+}
+.teams_cont
+{
+  width: 100%;
+    max-width: 1000px;
+    display: inline-block;
+  min-height: 200px;
+  padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 0;
+    text-align: left;
+}
+.teams_cont *
+{
+    box-sizing: border-box;
+}
+.team_cont
+{
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+    text-align: left;
+    padding: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.team_cont h2{
+    font-size: 30px;
+    color: black;
+}
+
+.team_cont span
+{
+    font-size: 20px;
+    color: black;
+}
+
+.teams_cont > p, h3{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.teams_cont > p
+{
+    font-size: 20px;
+}
+
+.teams_cont a
+{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #e62b1e;
+    color: white;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: right;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 700px)
+{
+    .team_cont
+    {
+        width: 50%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+body
+{
+  background-color: #FFF;
+  text-align: center;
+}
+#partner_grid
+{
+  display: inline-block;
+  max-width: 1000px;
+  margin: 40px;
+}
+img.partner-logo-title
+{
+                
+  max-height: 400px;
+  max-width: 750px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: middle;
+}
+img.partner-logo-nxt
+{
+                
+  max-height: 250px;
+  max-width: 400px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: middle;
+}
+img.partner-logo-sponsor
+{
+                
+  max-height: 250px;
+  max-width: 280px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: middle;
+}
+img.partner-logo
+{
+                
+  max-height: 250px;
+  max-width: 250px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: middle;
+}
+h1
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}

@@ -1,0 +1,351 @@
+<html>
+    <head>
+        <title>TEDxShivNadarUniversity - TEDx Club SNU</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <style>
+            body{
+                background-color: #ffffff;
+                background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+                /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+            }
+            *
+            {
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+            }
+            .slideshow_holder
+            {
+                position: relative;
+                width: 100%;
+                padding: 0;
+                white-space: nowrap;
+                box-sizing: border-box;
+                max-width: 1200px;
+                margin: 20px auto;
+                font-size: 0;
+                background-color: #000;
+                overflow: hidden;
+            }
+            .slideshow_holder > .rel
+            {
+                overflow: hidden;
+            }
+            .slideshow_reel
+            {
+            }
+            .slideshow_element
+            {
+                width: 100%;
+                display: inline-block;
+                background-color: #141414;
+                position: relative;
+                vertical-align: top;
+                text-align: center;
+                white-space: nowrap;
+            }
+            .slideshow_element img
+            {
+                width: calc(100% - 2px);
+                display: inline-block;
+                max-width: 1200px;
+                position: relative;
+            }
+            .slideshow_element i
+            {
+                vertical-align: center;
+                display: inline-block;
+            }
+            .slideshow_element:nth-child(1)
+            {
+                margin-left: 0;
+            }
+            .slideshow_arrow
+            {
+                height: 40px;
+                width: 40px;
+                background-color: #000;
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+                opacity: 0.5;
+                cursor: pointer;
+                z-index: 2000;
+                -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+                -moz-box-shadow: 0px 0px 3px 1px #FFF;
+                box-shadow: 0px 0px 3px 1px #FFF;
+            }
+            .slideshow_arrow.ss_move_left
+            {
+                left: 0;
+            }
+            .slideshow_arrow.ss_move_right
+            {
+                right: 0;
+            }
+            .slideshow_arrow:hover
+            {
+                opacity: 0.8;
+            }
+            .slideshow_arrow i
+            {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                font-size: 30px;
+                color: #FFF;
+            }
+            .slideshow_element i
+            {
+                color: white;
+                font-size: 80px;
+            }
+            .theSocialHolder
+            {
+                position: absolute;
+                left: 50%;
+                font-size: 30px;
+                top: 50%;
+                color: white;
+                transform: translateX(-50%) translateY(-50%);
+            }
+            #aftermovie_holder
+            {
+                box-sizing: border-box;
+                width: 100%;
+                text-align: center;
+            }
+            #aftermovie_holder iframe
+            {
+                display: inline-block;
+                width: 100%;
+                height: calc(100vw * 0.5625);
+            }
+            #tedxsnu{}
+            #tedxclub{}
+            @media screen and (min-width: 1200px)
+            {
+                .slideshow_arrow
+                {
+                    height: 100px;
+                    width: 100px;
+                }
+                .slideshow_arrow i
+                {
+                    font-size: 50px;
+                }
+
+                #aftermovie_holder iframe
+                {
+                    width: 1200px;
+                    height: 675px;
+                }
+            }
+            @media screen and (max-width: 700px)
+            {
+                h1{
+                    font-size: 25px !important;
+                    text-align: left !important;
+                }
+                h2{
+                    font-size: 20px !important;
+                }
+                h2+span
+                {
+                    font-size: 18px !important;
+                }
+                #tedxsnu{
+                    height: auto !important;
+                    width: 80% !important;
+                    padding: 0 0 20px;
+                }
+            }
+        </style>
+    </head>
+    <body style="text-align: center;">
+        <div id="header" style="background-color: black; max-width: 1200px; width: 100%; margin: 30px auto;">
+            <img src="/assets/images/fresh/club.jpg" id="tedxclub" style="width: 200px; vertical-align: middle;">
+            <img src="/assets/images/tedx_snu_white.png" id="tedxsnu" style="height: 80px; vertical-align: middle;">
+        </div>
+        <div style="display: inline-block; width: 100%; max-width: 1200px; text-align: justify; padding: 10px;">
+            <h2 style="font-size: 40px; display: inline-block; padding-right: 10px;">TED</h2>
+            <span style="font-size: 25px;">The best international conference, and a hilarious movie</span><br>
+            <h2 style="font-size: 40px; display: inline-block; padding-right: 10px;">TEDx</h2>
+            <span style="font-size: 25px;">Many babies of TED</span><br>
+            <h2 style="font-size: 40px; display: inline-block; padding-right: 10px;">TEDxShivNadarUniversity</h2>
+            <span style="font-size: 25px;">The biggest conference in Delhi-NCR</span>
+        </div>
+        <div id="aftermovie_holder">
+            <iframe src="https://www.youtube.com/embed/vt5byYQlvr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="slideshow_holder">
+            <div class="rel">
+                <div class="slideshow_reel">
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0001.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0002.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0003.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0004.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0005.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0006.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0007.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/conference/0008.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="slideshow_arrow ss_move_left">
+                <div class="rel">
+                    <i class="fas fa-caret-left"></i>
+                </div>
+            </div>
+            <div class="slideshow_arrow ss_move_right">
+                <div class="rel">
+                    <i class="fas fa-caret-right"></i>
+                </div>
+            </div>
+        </div>
+        <h2 style="text-align: center; color: black; font-weight: normal; font-size: 30px;">Visit our <a href="/" style="text-decoration: none; color: black; font-weight: bold">website to know more</a></h2>
+        <h1 STYLE="text-align: center; margin-top: 50px; font-size: 40px;">CLUB EVENTS</h1>
+        <div class="slideshow_holder">
+            <div class="rel">
+                <div class="slideshow_reel">
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/events/0001.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/events/0003.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/events/0005.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/events/0006.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/events/0007.jpg">
+                    </a>
+                    <a class="slideshow_element">
+                        <img style="width: 100%;" src="/assets/images/fresh/events/0008.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="slideshow_arrow ss_move_left">
+                <div class="rel">
+                    <i class="fas fa-caret-left"></i>
+                </div>
+            </div>
+            <div class="slideshow_arrow ss_move_right">
+                <div class="rel">
+                    <i class="fas fa-caret-right"></i>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%; max-width: 1200px; padding: 10px; display: inline-block; text-align: justify; margin: 80px 0;">
+            <h1 style="text-align: center;">HOW CAN YOU CONTRIBUTE?</h1>
+            <p>Since the club, as well as the conference, are entirely student-driven, every year, we hunt for students who believe in the ideology of TED- who believe that ideas can truly change the world. For the same, we have our Volunteer Program for TEDxShivNadarUniversity 2019, scheduled to take place in November. TEDxShivNadarUniversity is the Herculean project the club undertakes every year. The conference hosts speakers coming from every sphere and part of the world.
+                We will soon be taking in volunteers for the following teams:</p>
+            <ol>
+                <li>Content and Curation</li>
+                <li>Marketing</li>
+                <li>Design</li>
+                <li>Decor</li>
+                <li>Videography</li>
+                <li>Sponsorship</li>
+                <li>Web Development</li>
+            </ol>
+
+            <h2>Keep an eye out for our recruitment forms!</h2>
+        </div>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(function()
+            {
+                $(".slideshow_holder").each(function(){
+                    this.setAttribute("skip_auto", 0);
+                    this.setAttribute("slideshow_move", 0);
+                    var pt = this;
+
+                    $(this).find(".slideshow_arrow").on("click", function(e, parent = pt)
+                    {
+                        let noOfImages = $(parent).find(".slideshow_element").length;
+                        parent.setAttribute("skip_auto", 2);
+
+                        if($(this).hasClass("ss_move_left"))
+                        {
+                            if(parseInt(parent.getAttribute("slideshow_move")) === 0)
+                                parent.setAttribute("slideshow_move", noOfImages);
+
+                            let widthOfImage = $(parent).find(".slideshow_element").width();
+
+                            let moveTo = (widthOfImage) * (parseInt(parent.getAttribute("slideshow_move")) - 1);
+                            parent.setAttribute("slideshow_move", parseInt(parent.getAttribute("slideshow_move")) - 1);
+
+                            $(parent).children(".rel").stop().animate(
+                                {
+                                    "scrollLeft" : moveTo
+                                });
+                            $(parent).stop().animate(
+                                {
+                                    "height"    :   $(".slideshow_element").eq(parseInt(parent.getAttribute("slideshow_move"))).height() + "px"
+                                });
+                        }
+                        else
+                        {
+                            if(parseInt(parent.getAttribute("slideshow_move")) === (noOfImages - 1))
+                                parent.setAttribute("slideshow_move", -1);
+
+                            let widthOfImage = $(parent).find(".slideshow_element").width();
+
+                            let moveTo = (widthOfImage) * (parseInt(parent.getAttribute("slideshow_move")) + 1);
+                            parent.setAttribute("slideshow_move", parseInt(parent.getAttribute("slideshow_move"))+1);
+
+                            $(parent).children(".rel").stop().animate(
+                                {
+                                    "scrollLeft" : moveTo
+                                });
+
+                            $(parent).stop().animate(
+                                {
+                                    "height"    :   $(".slideshow_element").eq(parseInt(parent.getAttribute("slideshow_move"))).height() + "px"
+                                });
+                        }
+                    });
+                    setTimeout(()=>
+                    {
+                        setInterval(()=>{
+                            if(parseInt(this.getAttribute("skip_auto")))
+                            {
+                                this.setAttribute("skip_auto", parseInt(this.getAttribute("skip_auto"))-1);
+                                return;
+                            }
+
+                            $(this).find(".slideshow_arrow.ss_move_right").trigger("click");
+                            this.setAttribute("skip_auto", 0);;
+                        }, 3000);
+                    }, 1000);
+                })
+            });
+        </script>
+    </body>
+</html>

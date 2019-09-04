@@ -1,0 +1,372 @@
+
+#ootb_home
+{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+#content
+{
+  font-size: 0;
+}
+#anim_container
+{
+  position: absolute;
+  top: calc(50% + 40px);
+  transform: translateY(-50%);
+  left: 40px;
+  width: 400px;
+  padding: 60px;
+  height: 594px;
+  background-color: #1b356b;
+}
+.anim_circle.circle_small
+{
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  border: 2px solid #f9816d;
+  display: inline-block;
+  margin: 5px;
+}
+.anim_circle.circle_large
+{
+  height: 62px;
+  width: 62px;
+  border-radius: 35px;
+  border: 4px solid #f9816d;
+  display: inline-block;
+  margin: 15px;
+}
+.circle_solid
+{
+  background-color: #f9816d;
+}
+#iss_date_pe_aana_hai
+{
+  color: #f9816d;
+  font-size: 150px;
+  text-align: center;
+}
+#right_wala_dabba
+{
+  background-color: white;
+  opacity: 0.3;
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  right: 40px;
+  top: calc(50% + 40px);
+  color: #000;
+  font-size: 20px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  transform: translateY(-50%);
+}
+#countdown
+{
+    padding: 35px 0;
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    background-color: #FFF;
+}
+#countdown-inner
+{
+  display: inline-block;
+  min-height: 120px;
+  text-align: center;
+}
+.countdown-builder-output table
+{
+  display: inline-block;
+}
+#countdown_header
+{
+  font-size: 30px;
+  color: #0766b3;
+  font-weight: bold;
+}
+#timer
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.clock-builder-output
+{
+  white-space: nowrap;
+  color: #f9816d;
+  display: inline-block;
+}
+.clock-builder-output td
+{
+  padding: 10px;
+  font-size: 15px;
+}
+#about_us
+{
+    padding: 20px 0;
+    box-sizing: border-box;
+    min-height: 200px;
+    line-height: 1.4;
+    width: 100vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.about_column
+{
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  text-align: justify;
+  color: #000;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.about_column h3
+{
+  font-size: 30px;
+  color: #e62b1e;
+  margin-top: 0;
+}
+.vert_sep
+{
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  width: 2px;
+  height: 500px;
+  border-radius: 2px;
+}
+#radar_preview
+{
+  background-color: #FFF;
+  height: 500px;
+  margin: 0 30px;
+}
+#best_ideas
+{
+  text-align: center;
+  color: #1b356b;
+  display: inline-block;
+  font-size: 45px;
+  vertical-align: middle;
+}
+
+/* Slideshow CSS */
+
+#slideshow_holder
+{
+    position: relative;
+    width: 100%;
+    background-color: #FFF;
+    padding: 0;
+    white-space: nowrap;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+#slideshow_holder > .rel
+{
+    overflow: hidden;
+}
+#slideshow_reel
+{
+    position: relative;
+    height: 100%;
+}
+.slideshow_element
+{
+    width: 100%;
+    display: inline-block;
+    background-color: #141414;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    white-space: nowrap;
+}
+.slideshow_element img
+{
+    width: calc(100% - 2px);
+    display: inline-block;
+    max-width: 1200px;
+    position: relative;
+}
+.slideshow_element i
+{
+    vertical-align: center;
+    display: inline-block;
+}
+.slideshow_element:nth-child(1)
+{
+    margin-left: 0;
+}
+.slideshow_arrow
+{
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 2000;
+    -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+    -moz-box-shadow: 0px 0px 3px 1px #FFF;
+    box-shadow: 0px 0px 3px 1px #FFF;
+}
+.slideshow_arrow.ss_move_left
+{
+    left: 0;
+}
+.slideshow_arrow.ss_move_right
+{
+    right: 0;
+}
+.slideshow_arrow:hover
+{
+    opacity: 0.8;
+}
+.slideshow_arrow i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 30px;
+    color: #FFF;
+}
+.slideshow_element i
+{
+    color: white;
+    font-size: 80px;
+}
+.theSocialHolder
+{
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    top: 50%;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Slideshow CSS end */
+@media screen and (min-width: 1200px)
+{
+  .clock-builder-output td
+  {
+    font-size: 30px;
+  }
+  .about_column
+  {
+    width: 50%;
+    font-size: 20px;
+  }
+.about_column#about_tedxsnu
+{
+    width: calc(100% - 42px);
+}
+  #countdown_header
+  {
+    font-size: 60px;
+    display: block;
+  }
+  #small_announcements_container
+  {
+    width: calc(100% - 440px);
+    height: 420px;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  .announcement_small
+  {
+    width: 280px;
+  }
+  #best_ideas
+  {
+    text-align: left;
+  }
+  #radar_form
+  {
+    margin: 60px;
+  }
+  #radar_form_form input,
+  #radar_form_form button
+  {
+    border-radius: 2px;
+    margin: 10px 0;
+  }
+
+  .slideshow_arrow
+  {
+      height: 100px;
+      width: 100px;
+  }
+  .slideshow_arrow i
+  {
+      font-size: 50px;
+  }
+}
+.imgParallax
+{
+    width: 100vw;
+    max-width: 800px;
+    position: relative;
+}
+#content
+{
+    text-align: center;
+   background-color: #FFF;
+}
+.nominate_a_speaker + p
+{
+    max-width: 800px;
+    display: inline-block;
+    text-align: justify;
+}
+.nominate_a_speaker + p:after
+{
+    content: '';
+    display: block;
+}
+a.nominate_a_speaker
+{
+    margin: 10px !important;
+    font-size: 18px !important;
+}
+a.nominate_a_speaker:nth-child(2)
+{
+    float: left;
+}
+a.nominate_a_speaker:nth-child(3)
+{
+    float: right;
+}
+#aftermovie_holder
+{
+    box-sizing: border-box;
+}
+#aftermovie_holder iframe
+{
+    width: 100%;
+    margin: auto;
+    height: calc(100vw * 0.5625);
+}
+@media screen and (min-width: 1200px) {
+    #aftermovie_holder iframe
+    {
+        width: 1200px;
+        height: 675px;
+    }
+}

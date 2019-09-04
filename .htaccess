@@ -1,0 +1,15 @@
+Options +FollowSymlinks -Indexes -Multiviews
+RewriteEngine on
+
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
+
+RewriteRule ^fresh2019 fresh2019.html [QSA,L]
+RewriteRule ^(assets|action.php|fresh2019.html) - [L]
+RewriteRule ^plugins/[a-zA-Z0-9_]+/assets/.+\.(svg|jpg|jpeg|css|js|png|ico)$ - [L]
+RewriteRule ^themes/[a-zA-Z0-9_]+/assets/.+\.(svg|jpg|jpeg|css|js|png|ico)$ - [L]
+RewriteRule ^action/([a-zA-Z0-9/_]+) action.php?queryLink=$1 [QSA,L]
+RewriteRule ^ index.php [QSA,L]
