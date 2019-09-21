@@ -21,8 +21,8 @@ $GLOBALS['printPage'] = function()
         </div>
     </div>
     <div class="team_thumb_img big">
-        <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Allteams1.jpg">
-        <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Allteam2.jpg">
+        <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Allteams1.jpg">
+        <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Allteam2.jpg">
         <!--<br>
         The Team-->
     </div>
@@ -30,8 +30,8 @@ $GLOBALS['printPage'] = function()
         <div class="rel">
             <h1 style=" background-color: #000; color: #FFF; font-size: 30px; padding: 10px 30px; text-align: left;">The Teams</h1>
             <div class="team_thumb_img">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Core1.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Core1.jpg">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Core2.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Core2.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Core1.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Core1.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Core2.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Core2.jpg">
                 Core<br>
                 <p>
                 </p>
@@ -67,8 +67,8 @@ $GLOBALS['printPage'] = function()
                 </div>
             </div><br>
             <div class="team_thumb_img">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Website1.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Website1.jpg">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Website2.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Website2.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Website1.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Website1.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Website2.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Website2.jpg">
                 Website<br>
                 <p>
                     This team is headed by Sparsh
@@ -86,8 +86,8 @@ $GLOBALS['printPage'] = function()
                 </div>
             </div>
             <div class="team_thumb_img">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Sponsorship1.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Sponsorship1.jpg">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Sponsorship2.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Sponsorship2.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Sponsorship1.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Sponsorship1.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Sponsorship2.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Sponsorship2.jpg">
                 Sponsorships and Partnerships<br>
                 <p>
                     This team comprises the Sponsorships and Partnerships departments. The partnerships wing is headed by Shivika, and the sponsorships wing is headed by Niharika
@@ -117,8 +117,8 @@ $GLOBALS['printPage'] = function()
                 </div>
             </div>
             <div class="team_thumb_img">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_PFA+Finance1.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/PFA+Finance1.jpg">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_PFA+Finance2.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/PFA+Finance2.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_PFA+Finance1.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/PFA+Finance1.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_PFA+Finance2.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/PFA+Finance2.jpg">
                 Production and Finance<br>
                 <p>
                     This team comprises the Production and Finance departments. The production team is headed by Manas, and the finance team is co-headed by Sarvam, Adhithya and Anant.
@@ -163,8 +163,8 @@ $GLOBALS['printPage'] = function()
                 </div>
             </div>
             <div class="team_thumb_img">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Marketing1.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Marketing1.jpg">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Marketing2.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Marketing2.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Marketing1.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Marketing1.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Marketing2.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Marketing2.jpg">
                 Marketing<br>
                 <p>
                     This team is headed by Siri and Sanjana
@@ -194,8 +194,8 @@ $GLOBALS['printPage'] = function()
                 </div>
             </div>
             <div class="team_thumb_img">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Creative1.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Creative1.jpg">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Creative2.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Creative2.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Creative1.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Creative1.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Creative2.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Creative2.jpg">
                 Creative<br>
                 <p>
                     This team comprises the Digital Design team, Art and Decor team, and Photography and Videography team. Inaayat is the Creative Director. The digital design team is headed by Vicram and Vidur, and the art and decor team is headed by Anoushka and Isha.
@@ -243,8 +243,8 @@ $GLOBALS['printPage'] = function()
                 </div>
             </div>
             <div class="team_thumb_img">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Curation1.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Curation1.jpg">
-                <img src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Curation2.jpg" data-src="<? echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Curation2.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Curation1.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Curation1.jpg">
+                <img src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/thumbs/Small_Curation2.jpg" data-src="<?php echo $GLOBALS['astLink'] ; ?>images/team_pictures/large/Curation2.jpg">
                 Content and Curation<br>
                 <p>
                     This team is headed by Manvi

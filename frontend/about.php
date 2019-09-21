@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['themeVari'] = "basic";
+$GLOBALS['themeVari'] = "home";
 $GLOBALS['titleSub'] = $GLOBALS['siteMeta']['desc'];
 $GLOBALS['jsInclude'] = array("src/front/js/about.js", "src/front/js/jquery.imageScroll.min.js");
 $GLOBALS['printPage'] = function()
@@ -20,14 +20,14 @@ $GLOBALS['printPage'] = function()
       TEDxShivNadarUniversity is one of the flagship TEDx events in the Delhi-NCR region, where “x” means: independently organized TED event. At TEDxShivNadarUniversity live speakers and entertainers spark deep discussion and connection in our audience. TEDxShivNadarUniversity unites the community of Shiv Nadar University through the power of ideas. Staffed and run entirely by students, we aim to showcase the biggest ideas in the University on the world's biggest platform. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.
     </p>
   </div><br>
-  <div class="imgParallax" data-image="<? echo $GLOBALS['astLink']; ?>images/DSC_7874.jpg"></div>
+  <div class="imgParallax" data-image="<?php echo $GLOBALS['astLink']; ?>images/DSC_7874.jpg"></div>
   <div class="about_tedx">
     <h3><span class="span-white">About</span> TED</h3>
     <p>
       TED is an annual event where some of the world's leading thinkers and doers are invited to share what they are most passionate about. "TED" stands for Technology, Entertainment, Design -- three broad subject areas that are, collectively, shaping our future. TED is owned by a nonprofit, nonpartisan foundation, and is devoted to spreading ideas, usually in the form of short, powerful talks (18 minutes or less). The diverse audience of CEOs, scientists, creatives, philanthropists is almost as extraordinary as the speakers, who have included Bill Clinton, Bill Gates, Bono and Paul Simon, Shah Rukh Khan, Elon Musk, Sir Ken Robinson. Everything the organization does— from Conferences to projects sparked by the TED Prize, from the TED book series to the TED-Ed lesson series — is driven by this same very goal of making great ideas accessible!
     </p>
   </div><br>
-  <div class="imgParallax" data-image="<? echo $GLOBALS['astLink']; ?>images/DSC_7873.jpg"></div>
+  <div class="imgParallax" data-image="<?php echo $GLOBALS['astLink']; ?>images/DSC_7873.jpg"></div>
   <div class="about_tedx">
     <h3><span class="span-white">About</span> TEDx</h3>
     <p>

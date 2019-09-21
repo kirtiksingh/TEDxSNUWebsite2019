@@ -5,7 +5,7 @@ $GLOBALS['jsInclude'] = array();
 $GLOBALS['printPage'] = function()
 {
     ?>
-    <link rel="stylesheet" href="<? echo $GLOBALS['astLink'] ; ?>src/front/css/join.css">
+    <link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/join.css">
     <div class="page_title_block">
         <div class="page_title_cont">
             <span class="page_title_white">JOIN THE </span><span class="page_title_red">TEAM</span>

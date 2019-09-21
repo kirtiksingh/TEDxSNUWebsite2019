@@ -35,7 +35,7 @@ $GLOBALS['printPage'] = function()
   }
   </style>
 
-  <img id="top_bg_holder" src="<? echo $GLOBALS['astLink'] ; ?>images/ootb.png">
+  <img id="top_bg_holder" src="<?php echo $GLOBALS['astLink'] ; ?>images/ootb.png">
   <div id="ootb_text">
     <p>
       Trying to bring together an event that stimulates minds and stirs conversations, we were in search of a concept that was symbolic to the subjectivity of our every feeling: to each his own victory as well as tragedy. TEDxShivNadarUniversity 2018 eventually found its creative theme surfing somewhere in the vastness of oceans, right out of the blue! The grandiosity of waves and their unpredictable yet transforming path is a motif of change. The perpetual ups and downs and the ability to provide as well as remove are the remarkable traits that drew us to the divinity of waves. We present to you the visual theme for this edition: #OutOfTheBlue

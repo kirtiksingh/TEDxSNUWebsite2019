@@ -2,9 +2,11 @@ body
 {
     margin: 0;
     padding: 0;
-    border: 0;
     font-family: 'Oswald', sans-serif;
     overflow-x: hidden;
+    background-color: #000;
+    text-align: center;
+    border: 10px inset #000;
 }
 body p
 {
@@ -25,16 +27,40 @@ a{
 #top_strip
 {
     position: fixed;
-    top: 20px;
     left: 50vw;
+    top: calc(50vh - 80px);
     transform: translateX(-50%);
     z-index: 1000;
     font-size: 0;
     text-align: center;
     padding: 20px;
-    background-color: rgba(0,0,0,1);
+    background-color: #E6D14100;
     border-radius: 10px;
+    transition-duration: 0.6s;
 }
+
+#top_strip.downer
+{
+    top: 20px;
+    background-color: #000;
+    box-shadow:
+                -4px -4px 0 2px #E53293,
+                4px 4px 0 2px #4D2A7C,
+                0 0 0 6px #E6D141;
+}
+
+#top_strip img
+{
+    transition-duration: 0.6s;
+    margin-bottom: 15px;
+}
+
+#top_strip:not(.downer) img
+{
+    height: 110px;
+}
+
+
 #menu-space
 {
     position: relative;
@@ -43,9 +69,19 @@ a{
     height: 100%;
     right: 0;
     font-size: 0;
+    opacity: 1;
+    transition-duration: 0.6s;
     display: inline-block;
     white-space: nowrap;
 }
+
+
+#top_strip:not(.downer) #menu-space
+{
+    opacity: 0;
+    height: 0;
+}
+
 .menu-item
 {
     padding: 10px 20px;
@@ -73,6 +109,25 @@ img#tedxLogo
     padding: 15px 0 0 0;
     display: inline-block;
 }
+#content
+{
+    margin: calc(100vh + 100px) 100px 0;
+    z-index: 10;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #E6D141 !important;
+}
+
+#footer
+{
+    min-height: 200px;
+    width: calc(100% - 200px);
+    background-color: #000;
+    margin: 10px 100px 0;
+    border: 5px solid #E6D141;
+    box-sizing: border-box;
+}
+
 @media screen and (max-width: 1000px)
 {
     img#tedxLogo
@@ -83,231 +138,14 @@ img#tedxLogo
     {
         padding-right: 0;
     }
-}
-#content
-{
-    overflow-x: hidden;
-    padding-top: 165px;
-}
-#animation
-{
-    min-width: 100vw;
-    height: 100vh;
-    background-color: #000;
-    font-size: 0;
-}
-#anim_container
-{
-  position: absolute;
-  top: calc(50% + 40px);
-  transform: translateY(-50%);
-  left: 40px;
-  width: 400px;
-  padding: 60px;
-  height: 594px;
-  background-color: #1b356b;
-}
-.anim_circle.circle_small
-{
-  height: 26px;
-  width: 26px;
-  border-radius: 15px;
-  border: 2px solid #f9816d;
-  display: inline-block;
-  margin: 5px;
-}
-.anim_circle.circle_large
-{
-  height: 62px;
-  width: 62px;
-  border-radius: 35px;
-  border: 4px solid #f9816d;
-  display: inline-block;
-  margin: 15px;
-}
-.circle_solid
-{
-  background-color: #f9816d;
-}
-#iss_date_pe_aana_hai
-{
-  color: #f9816d;
-  font-size: 150px;
-  text-align: center;
-}
-#right_wala_dabba
-{
-  background-color: white;
-  opacity: 0.3;
-  width: 300px;
-  padding: 30px;
-  position: absolute;
-  right: 40px;
-  top: calc(50% + 40px);
-  color: #000;
-  font-size: 20px;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  transform: translateY(-50%);
-}
-#countdown
-{
-  padding: 35px 0;
-    width: 100vw;
-    text-align: center;
-    position: relative;
-}
-#countdown-inner
-{
-  display: inline-block;
-  height: 150px;
-  margin-top: 40px;
-}
-#timer
-{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-#clock-builder-output *
-{
-  white-space: nowrap;
-}
-#about_us
-{
-    padding: 50px 100px;
-    min-height: 200px;
-    width: calc(100vw - 200px);
-    background-color: #1b356b;
-}
-.about_column
-{
-  width: calc(50% - 102px);
-  vertical-align: top;
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
-  text-align: justify;
-  margin: 50px;
-  color: #FFF;
-}
-.about_column h3
-{
-  font-size: 30px;
-  color: #f9816d;
-}
-#announcements_container
-{
-  padding: 30px 60px;
-  min-height: 200px;
-  width: calc(100vw - 120px);
-  background-color: #1eaeeb;
-  display: inline-block;
-  text-align: center;
-  padding-bottom: 50px;
-}
-.announcement_block
-{
-  background-color: #1b356b;
-  padding: 10px;
-  display: inline-block;
-}
-.announcement_big
-{
-  height: 400px;
-  width: 300px;
-}
-#small_announcements_container
-{
-  width: calc(100% - 450px);
-  display: inline-block;
-  height: 400px;
-  position: relative;
-}
-.announcement_small{
-  height: 188px;
-  padding: 10px;
-  width: calc(calc(100% / 2) - 36px);
-}
-#newsletter_container
-{
-    padding: 50px 100px;
-    min-height: 200px;
-    width: calc(100vw - 200px);
-    background-color: #1b356b;
-    text-align: center;
-}
-#newsletter_container h1
-{
-  color: #FFF;
-  font-size: 60px;
-}
-.vert_sep
-{
-  display: inline-block;
-  position: relative;
-  background-color: white;
-  width: 2px;
-  height: 500px;
-  border-radius: 2px;
-}
-#radar_preview
-{
-  background-color: #FFF;
-  height: 500px;
-  margin: 0 30px;
-}
-#radar_preview img
-{
-  height: 500px;
-}
-#radar_preview, #newsletter_container > .vert_sep, #radar_form
-{
-  vertical-align: top;
-    display: inline-block;
-}
-#radar_form
-{
-  margin: 60px;
-  font-size: 0;
-}
-#radar_form_form input
-{
-  border: none;
-  outline: none;
-  padding: 20px;
-  font-size: 20px;
-  background-color: #FFF;
-  color: black;
-  border-radius: 1px 0 0 1px;
-  transition-duration: 0.2s;
-}
-#radar_form_form input:active,
-#radar_form_form input:focus
-{
-  background-color: #f98162;
-  color: white;
-}
-#radar_form_form input:focus::placeholder,
-#radar_form_form input:active::placeholder
-{
-  color: white;
-}
-#radar_form_form button
-{
-  background-color: #f98162;
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 0 4px 4px 0;
-  color: white;
-  outline: none;
-  border: 0;
-  cursor: pointer;
-}
-#footer
-{
-  min-height: 200px;
-  width: 100vw;
-  background-color: #000;
+    #content
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    #footer
+    {
+        margin: 10px;
+        width: calc(100vw - 20px);
+    }
 }

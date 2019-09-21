@@ -1,120 +1,13 @@
-
-#ootb_home
-{
-  width: 100%;
-  height: auto;
-  display: inline-block;
-}
-#content
-{
-  font-size: 0;
-}
-#anim_container
-{
-  position: absolute;
-  top: calc(50% + 40px);
-  transform: translateY(-50%);
-  left: 40px;
-  width: 400px;
-  padding: 60px;
-  height: 594px;
-  background-color: #1b356b;
-}
-.anim_circle.circle_small
-{
-  height: 26px;
-  width: 26px;
-  border-radius: 15px;
-  border: 2px solid #f9816d;
-  display: inline-block;
-  margin: 5px;
-}
-.anim_circle.circle_large
-{
-  height: 62px;
-  width: 62px;
-  border-radius: 35px;
-  border: 4px solid #f9816d;
-  display: inline-block;
-  margin: 15px;
-}
-.circle_solid
-{
-  background-color: #f9816d;
-}
-#iss_date_pe_aana_hai
-{
-  color: #f9816d;
-  font-size: 150px;
-  text-align: center;
-}
-#right_wala_dabba
-{
-  background-color: white;
-  opacity: 0.3;
-  width: 300px;
-  padding: 30px;
-  position: absolute;
-  right: 40px;
-  top: calc(50% + 40px);
-  color: #000;
-  font-size: 20px;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  transform: translateY(-50%);
-}
-#countdown
-{
-    padding: 35px 0;
-    width: 100vw;
-    text-align: center;
-    position: relative;
-    background-color: #FFF;
-}
-#countdown-inner
-{
-  display: inline-block;
-  min-height: 120px;
-  text-align: center;
-}
-.countdown-builder-output table
-{
-  display: inline-block;
-}
-#countdown_header
-{
-  font-size: 30px;
-  color: #0766b3;
-  font-weight: bold;
-}
-#timer
-{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-.clock-builder-output
-{
-  white-space: nowrap;
-  color: #f9816d;
-  display: inline-block;
-}
-.clock-builder-output td
-{
-  padding: 10px;
-  font-size: 15px;
-}
 #about_us
 {
     padding: 20px 0;
     box-sizing: border-box;
     min-height: 200px;
     line-height: 1.4;
-    width: 100vw;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #FFFFFF;
+    font-size: 0;
 }
 .about_column
 {
@@ -149,14 +42,6 @@
   height: 500px;
   margin: 0 30px;
 }
-#best_ideas
-{
-  text-align: center;
-  color: #1b356b;
-  display: inline-block;
-  font-size: 45px;
-  vertical-align: middle;
-}
 
 /* Slideshow CSS */
 
@@ -170,6 +55,7 @@
     box-sizing: border-box;
     max-width: 1200px;
     margin: 20px auto;
+    font-size: 0;
 }
 #slideshow_holder > .rel
 {
@@ -273,10 +159,6 @@
     width: 50%;
     font-size: 20px;
   }
-.about_column#about_tedxsnu
-{
-    width: calc(100% - 42px);
-}
   #countdown_header
   {
     font-size: 60px;

@@ -1,11 +1,11 @@
 <?php
-$GLOBALS['themeVari'] = "basic";
+$GLOBALS['themeVari'] = "home";
 $GLOBALS['titleSub'] = $GLOBALS['siteMeta']['desc'];
 $GLOBALS['jsInclude'] = array("src/front/js/faq.js");
 $GLOBALS['printPage'] = function()
 {
 	?>
-  <link rel="stylesheet" href="<? echo $GLOBALS['astLink'] ; ?>src/front/css/faq1.css">
+  <link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/faq1.css">
 	<div class="page_title_block">
 		<div class="page_title_cont">
 			<span class="page_title_white">Frequently</span><span class="page_title_white"> Asked</span><span class="page_title_red"> Questions</span>
@@ -21,7 +21,7 @@ $GLOBALS['printPage'] = function()
       </div>
       <div class="faq_element_content">
         <p>
-          A: Read <a target="_blank" href="<? echo $GLOBALS['host'] ; ?>about">here</a>.
+          A: Read <a target="_blank" href="<?php echo $GLOBALS['host'] ; ?>about">here</a>.
         </p>
       </div>
     </div>
@@ -96,7 +96,7 @@ $GLOBALS['printPage'] = function()
           <span class="faq_element_header_content">Q: Is there any provision for transportation to and from the event venue for attendees from Delhi-NCR?</span><i class="fas fa-caret-down"></i>
         </div>
         <div class="faq_element_content">
-          <p>A: Transportation will be provided on request. The pickup and drop-off point shall be the Botanical Garden Metro Station in Noida. Reach out to us <a target="_blank" href="<? echo $GLOBALS['host'] ; ?>contact">here</a>.
+          <p>A: Transportation will be provided on request. The pickup and drop-off point shall be the Botanical Garden Metro Station in Noida. Reach out to us <a target="_blank" href="<?php echo $GLOBALS['host'] ; ?>contact">here</a>.
           </p>
         </div>
       </div>
@@ -171,7 +171,7 @@ $GLOBALS['printPage'] = function()
           <span class="faq_element_header_content">Q: Is there any way to receive regular updates and news about your conference?</span><i class="fas fa-caret-down"></i>
         </div>
         <div class="faq_element_content">
-          <p>A: You can sign up for our newsletter <a target="_blank" href="<? echo $GLOBALS['host'] ; ?>#newsletter_container">here</a>. Everyone who attends TEDxShivNadarUniversity will be added to our mailing list, in order to receive future announcements and communications from TEDxShivNadarUniversity. Apart from this, you can follow us on our social media handles: <a target="_blank" href="https://www.instagram.com/tedxshivnadaruniversity/">Instagram</a>, <a target="_blank" href="https://www.facebook.com/tedxshivnadaruniversity/">Facebook</a> and <a target="_blank" href="https://twitter.com/tedxshivnadaru?lang=en">Twitter</a>.
+          <p>A: You can sign up for our newsletter <a target="_blank" href="<?php echo $GLOBALS['host'] ; ?>#newsletter_container">here</a>. Everyone who attends TEDxShivNadarUniversity will be added to our mailing list, in order to receive future announcements and communications from TEDxShivNadarUniversity. Apart from this, you can follow us on our social media handles: <a target="_blank" href="https://www.instagram.com/tedxshivnadaruniversity/">Instagram</a>, <a target="_blank" href="https://www.facebook.com/tedxshivnadaruniversity/">Facebook</a> and <a target="_blank" href="https://twitter.com/tedxshivnadaru?lang=en">Twitter</a>.
           </p>
         </div>
       </div>

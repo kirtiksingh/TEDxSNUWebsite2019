@@ -1,39 +1,48 @@
 <?php
-$GLOBALS['themeVari'] = "basic";
+$GLOBALS['themeVari'] = "home";
 $GLOBALS['titleSub'] = $GLOBALS['siteMeta']['desc'];
-$GLOBALS['jsInclude'] = array("src/front/js/home.js");
+$GLOBALS['jsInclude'] = array("http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js", "src/front/js/home.js");
 $GLOBALS['printPage'] = function()
 {
 	?>
 	<link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/home.css">
 
-    <div class="page_title_block">
-        <div class="page_title_cont">
-            <p>
-                TEDxShivNadarUniversity finds its soul in its diverse speaker roster. The conference is the celebration of the groundbreaking ideas of these thinkers, innovators, icons and mavericks.
-            </p>
-            <a class="nominate_a_speaker" target="_blank" href="https://goo.gl/forms/Vy9Y4QqQomFU3wpv2">
-                <i class="fas fa-external-link-alt"></i>  NOMINATE A SPEAKER
-            </a>
-            <a class="nominate_a_speaker" target="_blank" href="https://goo.gl/forms/Vy9Y4QqQomFU3wpv2">
-                <i class="fas fa-external-link-alt"></i>  BE A SPONSOR
-            </a>
-        </div>
-    </div>
+    <style>
+        #hidderReveal
+        {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            border-radius: 100px;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+        }
+        #hidderReveal > .page_title_cont
+        {
+            position: absolute;
+            top: -100%;
+            left: -100%;
+            padding: 0 !important;
+            transform: translate(calc(50vh - 50%), calc(50vw - 50%));
+        }
+    </style>
     <div id="slideshow_holder">
         <div class="rel">
             <div id="slideshow_reel">
-                <a class="slideshow_element" href="<? echo $GLOBALS['host'] ; ?>pastc/2018">
-                    <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00001.jpg">
+                <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                    <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00001.jpg">
                 </a>
-                <a class="slideshow_element" href="<? echo $GLOBALS['host'] ; ?>pastc/2018">
-                    <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00002.jpg">
+                <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                    <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00002.jpg">
                 </a>
-                <a class="slideshow_element" href="<? echo $GLOBALS['host'] ; ?>pastc/2018">
-                    <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00003.jpg">
+                <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                    <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00003.jpg">
                 </a>
-                <a class="slideshow_element" href="<? echo $GLOBALS['host'] ; ?>pastc/2018">
-                    <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00004.jpg">
+                <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                    <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SS_Image00004.jpg">
                 </a>
             </div>
         </div>
@@ -47,9 +56,6 @@ $GLOBALS['printPage'] = function()
                 <i class="fas fa-caret-right"></i>
             </div>
         </div>
-    </div>
-    <div id="aftermovie_holder">
-        <iframe src="https://www.youtube.com/embed/vt5byYQlvr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 	<div id="about_us">
         <div class="about_column" id="about_ted">

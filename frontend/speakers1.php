@@ -25,7 +25,7 @@ $GLOBALS['printPage'] = function()
                     <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                     <div class="speaker_element_background"
-                                    style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/ankur.jpg)">
+                                    style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/ankur.jpg)">
                                     </div>
                                     <div class="speaker_element_small_desc">
                                         <h2>Ankur Warikoo</h2><br><h3>Entrepreneur</h3>
@@ -54,7 +54,7 @@ $GLOBALS['printPage'] = function()
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                               style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/hashmi.jpg)">
+                               style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/hashmi.jpg)">
                           </div>
                           <div class="speaker_element_small_desc">
                               <h2>Sohail Hashmi</h2><br><h3>Historian, Heritage Walk Curator</h3>
@@ -81,7 +81,7 @@ $GLOBALS['printPage'] = function()
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/vasu.jpg)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/vasu.jpg)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>Vasu Primlani</h2><br><h3>Somatic Therapist | Comedian</h3>
@@ -111,7 +111,7 @@ $GLOBALS['printPage'] = function()
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                               style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/karan.jpg)">
+                               style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/karan.jpg)">
                           </div>
                           <div class="speaker_element_small_desc">
                               <h2>Karan Suri</h2><br><h3>Executive Director, Morgan Stanley</h3>
@@ -143,7 +143,7 @@ $GLOBALS['printPage'] = function()
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/flavia.jpg)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/flavia.jpg)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>Flavia Agnes</h2><br><h3>Women's Rights Lawyer</h3>
@@ -172,7 +172,7 @@ $GLOBALS['printPage'] = function()
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                               style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/varun.jpg)">
+                               style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/varun.jpg)">
                           </div>
                           <div class="speaker_element_small_desc">
                               <h2>Varun Bahl</h2><br><h3>Fashion Designer</h3>
@@ -201,7 +201,7 @@ $GLOBALS['printPage'] = function()
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/harnidh.jpg)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/harnidh.jpg)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Harnidh Kaur</h2><br><h3>Poetess</h3>
@@ -234,7 +234,7 @@ $GLOBALS['printPage'] = function()
                   <div class="speaker_element" data-speaker-identifier="">
 										<div class="rel">
 												<div class="speaker_element_background"
-												style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/josy.jpg)">
+												style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/josy.jpg)">
 												</div>
 												<div class="speaker_element_small_desc">
 													<h2>Josy Joseph</h2><br><h3>Investigative Journalist</h3>
@@ -265,7 +265,7 @@ This 18th November, allow him to enlighten you on why silence of any form is the
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/roshni_nadar.jpg)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18_posters/roshni_nadar.jpg)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Roshni Nadar</h2><br><h3>CEO, HCL Enterprise</h3>
@@ -298,7 +298,7 @@ For our next speaker, we bring to you one such uniqueness - Ms. Roshni Nadar Mal
                   <div class="speaker_element anonymous" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/anonymous_1.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/anonymous_1.png)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>TBA</h2>
@@ -320,7 +320,7 @@ For our next speaker, we bring to you one such uniqueness - Ms. Roshni Nadar Mal
                   <div class="speaker_element anonymous" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/anonymous_1.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/anonymous_1.png)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>TBA</h2>
@@ -342,7 +342,7 @@ For our next speaker, we bring to you one such uniqueness - Ms. Roshni Nadar Mal
                   <div class="speaker_element anonymous" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/anonymous_1.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/anonymous_1.png)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>TBA</h2>

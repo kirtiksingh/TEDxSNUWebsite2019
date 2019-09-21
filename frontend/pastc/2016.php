@@ -353,16 +353,16 @@ $GLOBALS['printPage'] = function()
     <div class="rel">
       <div id="slideshow_reel">
         <div class="slideshow_element">
-            <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/gallery_16/1.jpg">
+            <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/gallery_16/1.jpg">
         </div>
         <div class="slideshow_element">
-            <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/gallery_16/2.jpg">
+            <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/gallery_16/2.jpg">
         </div>
         <div class="slideshow_element">
-            <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/gallery_16/3.jpg">
+            <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/gallery_16/3.jpg">
         </div>
         <div class="slideshow_element">
-            <img style="width: 100%;" src="<? echo $GLOBALS['astLink'] ; ?>images/gallery_16/4.jpg">
+            <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/gallery_16/4.jpg">
         </div>
         <div class="slideshow_element">
           <div class="theSocialHolder">

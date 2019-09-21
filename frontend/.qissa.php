@@ -5,7 +5,7 @@ $GLOBALS['jsInclude'] = array("src/front/js/qissa2.js");
 $GLOBALS['printPage'] = function()
 {
 	?>
-    <link rel="stylesheet" href="<? echo $GLOBALS['astLink'] ; ?>src/front/css/qissa1.css">
+    <link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/qissa1.css">
     <div class="page_title_block">
 		<div class="page_title_cont">
 			<span class="page_title_white">QISSA</span>
@@ -31,7 +31,7 @@ $GLOBALS['printPage'] = function()
             </p>
         </div>
         <div id="qissa_poster">
-            <img src="<? echo $GLOBALS['astLink'] ; ?>images/Qissa_New_edit.png">
+            <img src="<?php echo $GLOBALS['astLink'] ; ?>images/Qissa_New_edit.png">
         </div>
         <div id="past_speakers_display">
             <h1 style="color: #FFF; font-size: 40px;">The Books</h1>

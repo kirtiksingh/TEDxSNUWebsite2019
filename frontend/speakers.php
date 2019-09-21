@@ -26,7 +26,7 @@ $GLOBALS['printPage'] = function()
 								<div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/kapil.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/kapil.png)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>Kapil Dev</h2><br><h3>Cricketing Legend</h3>
@@ -57,7 +57,7 @@ A captain for some, a hero for the others and a legend for everyone. One of the 
 								<div class="speaker_element" data-speaker-identifier="">
 										<div class="rel">
 												<div class="speaker_element_background"
-												style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/ankur_w.png)">
+												style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/ankur_w.png)">
 												</div>
 												<div class="speaker_element_small_desc">
 													<h2>Ankur Warikoo</h2><br><h3>Entrepreneur</h3>
@@ -86,7 +86,7 @@ A captain for some, a hero for the others and a legend for everyone. One of the 
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/vasu_primlani.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/vasu_primlani.png)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>Vasu Primlani</h2><br><h3>Somatic Therapist | Comedian</h3>
@@ -117,7 +117,7 @@ A captain for some, a hero for the others and a legend for everyone. One of the 
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/flavia_agnes.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/flavia_agnes.png)">
                           </div>
                           <div class="speaker_element_small_desc">
 														<h2>Flavia Agnes</h2><br><h3>Women's Rights Lawyer</h3>
@@ -144,7 +144,7 @@ A captain for some, a hero for the others and a legend for everyone. One of the 
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/harnidh_kaur_edit-2.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/harnidh_kaur_edit-2.png)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Harnidh Kaur</h2><br><h3>Poetess</h3>
@@ -175,7 +175,7 @@ A captain for some, a hero for the others and a legend for everyone. One of the 
                  <!--<div class="speaker_element" data-speaker-identifier="">
 										<div class="rel">
 												<div class="speaker_element_background"
-												style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/nila.png)">
+												style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/nila.png)">
 												</div>
 												<div class="speaker_element_small_desc">
 													<h2>Nila Madhab Panda</h2><br><h3>Director | Producer</h3>
@@ -207,7 +207,7 @@ This 18th of November, hear him talk about how he "accidentally" became a storyt
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/roshni.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/roshni.png)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Roshni Nadar</h2><br><h3>CEO, HCL Enterprise</h3>
@@ -240,7 +240,7 @@ For our next speaker, we bring to you one such uniqueness - Ms. Roshni Nadar Mal
 				<div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/sohail.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/sohail.png)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Sohail Hashmi</h2><br><h3>Historian, Heritage Walk Curator</h3>
@@ -267,7 +267,7 @@ For our next speaker, we bring to you one such uniqueness - Ms. Roshni Nadar Mal
 				<div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/yogesh.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/yogesh.png)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Yogesh Saini</h2><br><h3>Founder, Delhi Street Art</h3>
@@ -294,7 +294,7 @@ For our next speaker, we bring to you one such uniqueness - Ms. Roshni Nadar Mal
 									<div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/karan.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/karan.png)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Karan Suri</h2><br><h3>Executive Director, Morgan Stanley</h3>
@@ -323,7 +323,7 @@ Our next speaker is an investment banker by profession who is on the go all the 
 									<div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/nandita.png)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/nandita.png)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Nandita Das</h2><br><h3>Actor | Director</h3>
@@ -358,7 +358,7 @@ This 18th of November hear her delve into the importance and intricacies of empa
 									<div class="speaker_element" data-speaker-identifier="">
 											<div class="rel">
 													<div class="speaker_element_background"
-													style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/ng.png)">
+													style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/ng.png)">
 													</div>
 													<div class="speaker_element_small_desc">
 														<h2>NG Jayasimha</h2><br><h3>Managing Director, Humane Society International</h3>
@@ -388,7 +388,7 @@ Come, hear him talk on the 18th of November about how technology and innovation 
                   <div class="speaker_element" data-speaker-identifier="">
 											<div class="rel">
 													<div class="speaker_element_background"
-													style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/shoma.png)">
+													style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/shoma.png)">
 													</div>
 													<div class="speaker_element_small_desc">
 														<h2>Shoma Chaudhury</h2><br><h3>Journalist</h3>
@@ -425,7 +425,7 @@ At a time when the definition of what constitutes good journalism grows ever wid
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/sanjeeta_1.jpg)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/sanjeeta_1.jpg)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Sanjeeta Bhattacharya </h2><br><h3>Musical Artist</h3>
@@ -453,7 +453,7 @@ At a time when the definition of what constitutes good journalism grows ever wid
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/salsa.jpg)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/salsa.jpg)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Suman & Aarshi</h2><br><h3>Performers - Salsa Duo</h3>
@@ -480,7 +480,7 @@ At a time when the definition of what constitutes good journalism grows ever wid
                   <div class="speaker_element" data-speaker-identifier="">
                       <div class="rel">
                           <div class="speaker_element_background"
-                          style="background-image: url(<? echo $GLOBALS['astLink'] ; ?>images/speakers_18/suman.jpg)">
+                          style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speakers_18/suman.jpg)">
                           </div>
 													<div class="speaker_element_small_desc">
 														<h2>Aditya Bhandari</h2><br><h3>Slam Poet</h3>

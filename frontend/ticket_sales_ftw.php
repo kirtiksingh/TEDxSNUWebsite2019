@@ -5,7 +5,7 @@ $GLOBALS['jsInclude'] = array("src/front/js/tickets.js");
 $GLOBALS['printPage'] = function()
 {
     ?>
-    <link rel="stylesheet" href="<? echo $GLOBALS['astLink'] ; ?>src/front/css/tickets.css">
+    <link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/tickets.css">
     <div id="top_poster"></div><br>
     <div id="top_poster_two">
         <div class="left_bar">

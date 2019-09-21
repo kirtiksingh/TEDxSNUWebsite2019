@@ -14,9 +14,15 @@
 	<body>
 				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 				<link type="text/css" rel="stylesheet" href="<?php echo $GLOBALS['astLink']; ?>src/plugins/clock_assets/flipclock.css" />
-				<div id="content">
+                <div class="page_title_block" style="height: 100vh; position: fixed; top: 0; left: 0; width: 100vw; z-index: -1;">
+                    <div id="page_title_cont" style="height: 100%;">
+
+                    </div>
+                </div>
+                <div id="content">
 						<?php $GLOBALS['printPage'](); ?>
-						<div id="footer"></div>
+                </div>
+                <div id="footer"></div>
 		        <div id="top_strip">
 		            <div class="rel">
 										<div id="top_strip_bg"></div>
@@ -34,6 +40,8 @@
 				</div>
 		</div>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+                <script type="text/javascript"
+                        src="<?php echo $GLOBALS['host']; ?>themes/<?php echo $GLOBALS['currTheme']; ?>/assets/home/js/script.js"></script>
         <?php
         if(isset($GLOBALS['jsInclude'])&&is_array($GLOBALS['jsInclude']))
         {
