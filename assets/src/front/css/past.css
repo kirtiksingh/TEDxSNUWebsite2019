@@ -1,9 +1,4 @@
-body
-{
-  background-color: #FFF;
-  text-align: center;
-  font-size: 0;
-}
+
 #past_speakers_tile_ribbon
 {
   display: inline-block;
@@ -274,5 +269,5 @@ h1
 
 #content
 {
-    background-color: #FFFFFF;
+  margin-top: 200px;
 }

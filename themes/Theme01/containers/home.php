@@ -23,7 +23,7 @@
 						<?php $GLOBALS['printPage'](); ?>
                 </div>
                 <div id="footer"></div>
-		        <div id="top_strip">
+		        <div id="top_strip" class="downer">
 		            <div class="rel">
 										<div id="top_strip_bg"></div>
 		                <img id="tedxLogo" src="<?php echo $GLOBALS['astLink'] ; ?>images/tedx_snu_white.png"><br>
