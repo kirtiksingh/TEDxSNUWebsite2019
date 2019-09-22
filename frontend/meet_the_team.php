@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['themeVari'] = "basic";
+$GLOBALS['themeVari'] = "home";
 $GLOBALS['titleSub'] = $GLOBALS['siteMeta']['desc'];
 $GLOBALS['jsInclude'] = array("src/front/js/it_us.js");
 $GLOBALS['printPage'] = function()

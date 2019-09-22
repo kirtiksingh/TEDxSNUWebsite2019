@@ -8,9 +8,9 @@ h1#speaker_h1
   padding-top: 50px;
   display: inline-block;
   min-height: calc(100vh - 100px);
-  width: 100vw;
+  width: 100%;
   text-align: center;
-  background-color: #fff;
+  background-color: #e6d141;
   font-size: 0;
 }
 #speaker_carousel_cont
@@ -25,7 +25,7 @@ h1#speaker_h1
 body
 {
   font-size: 0;
-  background-color: #fff;
+  background-color: #000;
   text-align: center;
 }
 .speaker_element
@@ -39,7 +39,7 @@ body
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     cursor: pointer;
-    border: 2px inset #0766b3;
+    border: 2px inset #4d2a7c;
     border-radius: 2px;
 }
 .speaker_element_background
@@ -190,6 +190,19 @@ body
     position: relative;
     top: auto;
     right: auto;
+  }
+  .speaker_element
+  {
+    width:270px;
+    height: 270px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .speaker_element
+  {
+    width: 100%;
   }
 }
 
