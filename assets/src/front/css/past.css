@@ -271,3 +271,12 @@ h1
 {
   margin-top: 200px;
 }
+
+@media only screen and (min-width: 600px){
+  .past_speaker_single_thumb{
+    box-sizing: border-box;
+    height: auto;
+    
+  }
+
+}

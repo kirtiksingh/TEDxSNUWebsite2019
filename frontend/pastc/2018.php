@@ -18,66 +18,21 @@ $GLOBALS['printPage'] = function()
   <div id="past_speakers_display">
     <div id="past_speakers_tile_ribbon">
       <div class="rel">
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/KapilDev.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/AnkurWarikoo.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/FlaviaAgnes.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/HarnidhKaur.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/SohailHashmi.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/RoshniNadar.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/YogeshSaini.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/KaranSuri.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/NanditaDas.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/NGJayasimha.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/ShomaChaudhury.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-          <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/VasuPrimlani.jpg)">
-              <div class="rel">
-              </div>
-          </div>
-          <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/perf0001.jpg)">
-              <div class="rel">
-              </div>
-          </div>
-          <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/perf0003.jpg)">
-              <div class="rel">
-              </div>
-          </div>
-          <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_18/perf0002.jpg)">
-              <div class="rel">
-              </div>
-          </div>
+        <img src="/assets/images/speakers_18/KapilDev.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/AnkurWarikoo.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/FlaviaAgnes.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/HarnidhKaur.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/SohailHashmi.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/RoshniNadar.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/YogeshSaini.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/KaranSuri.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/NanditaDas.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/NGJayasimha.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/ShomaChaudhury.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/VasuPrimlani.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/perf0001.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/perf0003.jpg" class="past_speaker_single_thumb" />
+        <img src="/assets/images/speakers_18/perf0002.jpg" class="past_speaker_single_thumb" />
       </div>
       <!-- <div class="arrows_to_move atm_left">
         <i class="fas fa-caret-left"></i>
