@@ -184,4 +184,6 @@ $(function () {
         else
             document.querySelector("#top_strip").classList.remove("downer");
     }
+
+    $(window).scroll();
 });
