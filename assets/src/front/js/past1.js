@@ -59,15 +59,10 @@ $(function()
   {
     var ind = $(".past_speaker_single_thumb").index(this);
     var widthOne = 0;
-    if($(window).width() > 1100)
-    widthOne = $(".past_speaker_single_content").width() + ($(window).width() - 1100) + 80;
-    else
-    widthOne = $(".past_speaker_single_content").width()  + 80;
+    widthOne = $("#past_speaker_content").innerWidth();
     console.log(widthOne);
     console.log(widthOne * ind);
     $("#past_speaker_content").stop().animate({"scrollLeft": widthOne * ind}, 1000);
-    scrollSpy($("#past_speaker_content"), 1000);
-
     var widthOfVid = 0, heightofvid = 0;
     if(widthOne > 900)
     {

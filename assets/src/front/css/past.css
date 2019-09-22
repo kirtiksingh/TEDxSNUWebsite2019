@@ -41,11 +41,12 @@
 }
 .past_speaker_single_content
 {
-  width: calc(100% - 80px);
+  width: 100%;
   color: white;
   font-size: 30px;
   padding: 40px;
   padding-bottom: 80px;
+  box-sizing: border-box;
   vertical-align: top;
   display: inline-block;
   position: relative;
@@ -233,7 +234,6 @@ h1
 {
   .past_speaker_single_content
   {
-    width: 1020px;
     padding-left: calc(40px + calc(calc(100% - 1100px) / 2));
     padding-right:calc(40px + calc(calc(100% - 1100px) / 2));
   }

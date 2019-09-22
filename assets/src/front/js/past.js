@@ -59,10 +59,7 @@ $(function()
   {
     var ind = $(".past_speaker_single_thumb").index(this);
     var widthOne = 0;
-    if($(window).width() > 1100)
-    widthOne = $(".past_speaker_single_content").width() + ($(window).width() - 1100) + 80;
-    else
-    widthOne = $(".past_speaker_single_content").width()  + 80;
+    widthOne = $("#past_speaker_content").width();
     console.log(widthOne);
     console.log(widthOne * ind);
     $("#past_speaker_content").stop().animate({"scrollLeft": widthOne * ind}, 1000);
