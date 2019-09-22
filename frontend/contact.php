@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['themeVari'] = "basic";
+$GLOBALS['themeVari'] = "home";
 $GLOBALS['titleSub'] = $GLOBALS['siteMeta']['desc'];
 $GLOBALS['jsInclude'] = array("https://maps.googleapis.com/maps/api/js?key=AIzaSyD3tbKk3MMoOkN7oturWjN1Dshtg2VcI_M&callback=initMap");
 $GLOBALS['printPage'] = function()
@@ -46,7 +46,7 @@ $GLOBALS['printPage'] = function()
 		min-height: 150px;
 		padding: 20px;
         background-color: #000000;
-        border: 5px solid #e62b1e;
+        border: 5px solid #4d2a7c;
 		margin-top: 20px;
 		position: relative;
 	}
@@ -73,11 +73,11 @@ $GLOBALS['printPage'] = function()
 	}
     input:focus, textarea:focus
     {
-        border-color: #e62b1e;
+        border-color: #4d2a7c;
     }
     input:valid, textarea:valid
     {
-        border-color: #e62b1e;
+        border-color: #4d2a7c;
     }
 	label
 	{
@@ -95,7 +95,7 @@ $GLOBALS['printPage'] = function()
 		border: none;
 		border-radius: 2px;
         font-weight: bold;
-        border-bottom: 5px solid #e62b1e;
+        border-bottom: 5px solid #4d2a7c;
 	}
 	.info_block_row
 	{
