@@ -22,7 +22,26 @@
                 <div id="content">
 						<?php $GLOBALS['printPage'](); ?>
                 </div>
-                <div id="footer"></div>
+				<div id="footer">
+					<div id="footer_cont">
+						<?php /*<p id="address">
+										<span>ADDRESS:</span><br><!--
+									-->Shiv Nadar University<br><!--
+									-->NH - 91, Tehsil Dadri<br><!--
+									-->Gautam Buddha Nagar<br><!--
+									-->Uttar Pradesh - 201314<br>
+											<a href="/contact_us">Contact Us</a>	<!--
+									--></p> */ ?>
+						<div id="footer_social">
+							<a href="http://www.facebook.com/tedxshivnadaruniversity"><i class="fab fa-facebook"></i></a>
+							<a href="http://www.instagram.com/tedxshivnadaruniversity"><i class="fab fa-instagram"></i></a>
+							<a href="https://twitter.com/TEDxShivNadarU"><i class="fab fa-twitter"></i></a><br>
+							<p style='font-family: "Arial", sans-serif;'>This independent <span
+									style="color: #4d2a7c; font-weight: bold; text-shadow: 0px 1px #e6d141;">TEDx</span> event is operated under license from
+							<span style="color: #4d2a7c; font-weight: bold; text-shadow: 0px 1px #e6d141;">TED</span>.</p>
+						</div>
+					</div>
+				</div>
 		        <div id="top_strip" class="downer">
 		            <div class="rel">
 										<div id="top_strip_bg"></div>

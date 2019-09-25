@@ -120,12 +120,59 @@ img#tedxLogo
 
 #footer
 {
-    min-height: 200px;
     width: calc(100% - 200px);
     background-color: #000;
     margin: 10px 100px 0;
     border: 5px solid #E6D141;
     box-sizing: border-box;
+}
+#footer_cont
+{
+  width: calc(100% - 60px);
+  padding: 30px;
+  padding-bottom: 110px;
+  max-width: 800px;
+  display: inline-block;
+  position: relative;
+}
+#footer_social
+{
+  position: absolute;
+  bottom: 15px;
+  font-size: 15px;
+  left: 50%;
+  color: white;
+  transform: translateX(-50%);
+  width: calc(100% - 20px);
+  max-width: 500px;
+  padding: 0 10px;
+}
+#footer_social a
+{
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: 0px;
+  transition-duration: 0.2s;
+}
+#footer_social a:hover
+{
+  color: #4d2a7c;
+}
+#address
+{
+  float: left;
+  color: white;
+  text-align: justify;
+  font-size: 15px;
+}
+#address span
+{
+  font-size: 25px;
+  color: #000000;
+  display: inline;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1000px)
