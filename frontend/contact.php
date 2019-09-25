@@ -20,7 +20,8 @@ $GLOBALS['printPage'] = function()
 	}
 	#content
 	{
-	    background-color: #000000e8;
+		background-color: #000000e8;
+		margin-top : 200px;
 	}
 	#left_holder
 	{

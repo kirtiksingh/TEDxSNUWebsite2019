@@ -28,6 +28,10 @@ body
   background-color: #000;
   text-align: center;
 }
+#content
+{
+  margin-top: 200px;
+}
 .speaker_element
 {
     display: inline-block;

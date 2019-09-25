@@ -17,6 +17,10 @@ body
     text-align: center;
     font-size: 0;
 }
+#content
+{
+    margin-top: 200px;
+}
 .team_thumb_img
 {
     max-width: calc(100% - 10px);
@@ -63,6 +67,10 @@ body
     margin: 0 !important;
     padding-top: 20px;
     font-size: 40px !important;
+}
+.content
+{
+    margin-top: 200px!important;
 }
 @media screen and (max-width: 600px) {
     #meet_the_team_grid
