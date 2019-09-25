@@ -1,5 +1,10 @@
 
-
+$(function () {
+    $("#hamburger").on("click", function()
+    {
+        $("body").toggleClass("leftMenuOpen");
+    });
+});
 function scrollSpy(elem_selector, millis)
 {
 

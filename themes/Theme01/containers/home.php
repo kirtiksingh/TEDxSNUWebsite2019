@@ -27,14 +27,38 @@
 		            <div class="rel">
 										<div id="top_strip_bg"></div>
 		                <img id="tedxLogo" src="<?php echo $GLOBALS['astLink'] ; ?>images/tedx_snu_white.png"><br>
+                        <i class="fas fa-bars" id="hamburger"></i>
 		                <div id="menu-space">
-		                    <a class="menu-item selected">HOME</a>
-		                    <a class="menu-item">ABOUT</a>
-		                    <a class="menu-item" href="<?php echo $GLOBALS['host'] ; ?>Speakers">SPEAKERS 2018</a>
-		                    <a class="menu-item">PARTNERS</a>
-		                    <a class="menu-item">PAST CONFERENCES</a>
-		                    <a class="menu-item drop-down-item">CONTACT US</a>
-		                </div>
+                            <div class="rel">
+                                <a class="menu-item" id="home-menu-item" href="<?php echo $GLOBALS['host']; ?>">HOME</a>
+                                <!--                                <div class="menu-item drop-down-item" id="about-menu-item">ABOUT-->
+                                <!--                                    <div class="rel">-->
+                                <!--                                        <div class="drop-down-menu-bar">-->
+                                <a class="menu-item" id="about-menu-item" href="<?php echo $GLOBALS['host']; ?>about">ABOUT</a>
+                                <!--                                            <a class="menu-drop-down-item" href="-->
+                                <?php // echo $GLOBALS['host'] ; ?><!--meet_the_team">THE TEAM</a><br>-->
+                                <!--                                        </div>-->
+                                <!--                                    </div>-->
+                                <!--                                </div>-->
+                                <!--                                <a class="menu-item" href="-->
+                                <?php // echo $GLOBALS['host'] ; ?><!--about" id="about-menu-item">ABOUT US</a>-->
+                                <div class="menu-item drop-down-item" id="past-conf-menu-item">PAST CONFERENCES
+                                    <div class="rel">
+                                        <div class="drop-down-menu-bar">
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>pastc/2018">2018</a><br>
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>pastc/2017">2017</a><br>
+                                            <a class="menu-drop-down-item" href="<?php echo $GLOBALS['host']; ?>pastc/2016">2016</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="menu-item" href="<?php echo $GLOBALS['host']; ?>contact">CONTACT US</a>
+                                <!--<a class="menu-item tickets_button" id="mobile_tickets" href="<?php echo $GLOBALS['host']; ?>tickets" target="_blank">
+                            TICKETS
+                        </a>-->
+                            </div>
+                        </div>
 		            </div>
 		        </div>
 				</div>
