@@ -1,4 +1,4 @@
-var window_type = "pc";
+var window_type = "pc"; 
 $(function()
 {
   var menu_bar_fixed_size = 100;
