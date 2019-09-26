@@ -14,14 +14,12 @@ $GLOBALS['printPage'] = function()
 	{
 		display: inline-block;
 		max-width: 900px;
-		width: calc(100% - 40px);
-		padding: 20px 0;
+		width: 100%;
 		text-align: left;
 	}
 	#content
 	{
 		background-color: #000000e8;
-		margin-top : 200px;
 	}
 	#left_holder
 	{
@@ -35,7 +33,6 @@ $GLOBALS['printPage'] = function()
 		padding-left: 20px;
 		text-align: right;
 		width: calc(50% - 5px);
-        vertical-align: top;
 		vertical-align: middle;
 	}
 	#info_block
@@ -53,7 +50,7 @@ $GLOBALS['printPage'] = function()
 	}
 	input, textarea
 	{
-		width: calc(100% - 20px);
+		width: 100%;
 		padding: 10px 15px;
 		font-size: 20px;
 		margin: 20px 0;
@@ -128,7 +125,8 @@ $GLOBALS['printPage'] = function()
 	{
 		#form_contact_form
 		{
-			width: calc(100% - 40px);
+			width: 100%;
+            padding-left: 0 !important;
 		}
 		#info_block
 		{
@@ -157,6 +155,7 @@ $GLOBALS['printPage'] = function()
 			<p>Answers to all queries, requests and suggestions are just an email or a call away. Please don’t hesitate in reaching out to us.</p>
 		</div>
 	</div>
+    <div id="content">
 	<div id="contact_form">
 		<div id="left_holder">
 			<div id="google_map_holder">
@@ -200,6 +199,7 @@ $GLOBALS['printPage'] = function()
             </div>
         </div>
 		<form action="" id="form_contact_form" method="post">
+            <h1 style="text-align: center;">Quick Message</h1>
 			<!-- <label for="input_name" id="label_name">Name:</label><br> -->
 			<input id="input_name" name="input_name" type="text" placeholder="Apple Johnseed"></input><br>
 			<!-- <label for="input_email" id="label_email">Email:</label><br> -->
@@ -211,6 +211,7 @@ $GLOBALS['printPage'] = function()
 			<button>Send</button>
 		</form>
 	</div>
+    </div>
 <?php
 }
 ?>
