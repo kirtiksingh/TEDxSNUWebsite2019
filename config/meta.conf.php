@@ -15,7 +15,7 @@ $GLOBALS['siteMeta'] = array(
 				"tags" => "tedx, tedxshivnadaruniversity, tedxsnu, snu, shiv, nadar, university, shiv nadar, shiv nadar foundation, foundation, noida, greater, greater noida, dadri, speakers, about, ted, conference, independently, organised"
 				);
 
-$GLOBALS['domain'] = "tedx";
+$GLOBALS['domain'] = "tedxsnu";
 /*
  * This is the domain or sub-domain you are installing the script to.
  * Note that this does not include the sub-folder heirarchy. It just contains the domain/sub-domain.

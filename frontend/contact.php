@@ -151,6 +151,7 @@ $GLOBALS['printPage'] = function()
   </style>
 	<div class="page_title_block">
 		<div class="page_title_cont">
+			<span class="page_title_white" style="font-size: 18px; color: #E53293">Get In Touch</span><br>
 			<span class="page_title_white">CONTACT </span><span class="page_title_red">US</span>
 			<p>Answers to all queries, requests and suggestions are just an email or a call away. Please don’t hesitate in reaching out to us.</p>
 		</div>

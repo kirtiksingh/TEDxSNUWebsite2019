@@ -8,6 +8,7 @@ $GLOBALS['printPage'] = function()
 	<link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/about.css">
 	<div class="page_title_block">
 		<div class="page_title_cont">
+    <span class="page_title_white" style="font-size: 18px; color: #E53293">Ideas Worth Spreading</span><br>
 			<span class="page_title_red">ABOUT</span>
       <p>
         TED and TEDx are two terms which are vastly different, yet most confused. TEDx conferences are independently organised by local volunteers under a license from TED.

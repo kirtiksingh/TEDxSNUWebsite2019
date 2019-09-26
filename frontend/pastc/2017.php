@@ -8,6 +8,7 @@ $GLOBALS['printPage'] = function()
 	<link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/past.css">
 	<div class="page_title_block">
 		<div class="page_title_cont">
+			<span class="page_title_white" style="font-size: 18px; color: #E53293">Past Conference</span><br>
 			<span class="page_title_white">TEDxShivNadarUniversity</span><span class="page_title_red"> 2017</span><br>
       <p>
         TEDxShivNadarUniversity 2018 is empowered by the two years of experience already under our belt. Even today, we are grateful to our speakers and partners from our previous years for their support and contribution.
@@ -18,58 +19,19 @@ $GLOBALS['printPage'] = function()
   <div id="past_speakers_display">
     <div id="past_speakers_tile_ribbon">
       <div class="rel">
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/abhineet.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/amitabh.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/bianca.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/garima.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/karanvaish.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/nikheel.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/reema.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/reshma.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/sanjay.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/shreya.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/sriram.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/stalin.jpg)">
-          <div class="rel">
-          </div>
-        </div>
-        <div class="past_speaker_single_thumb" style="background-image: url(/assets/images/speakers_17/zorian.jpg)">
-          <div class="rel">
-          </div>
-        </div>
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/abhineet.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/amitabh.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/bianca.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/garima.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/karanvaish.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/nikheel.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/reema.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/reshma.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/sanjay.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/shreya.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/sriram.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/stalin.jpg" >
+        <img class="past_speaker_single_thumb" src="/assets/images/speakers_17/zorian.jpg" >
       </div>
       <!-- <div class="arrows_to_move atm_left">
         <i class="fas fa-caret-left"></i>
