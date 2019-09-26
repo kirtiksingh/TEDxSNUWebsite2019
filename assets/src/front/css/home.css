@@ -9,6 +9,15 @@
     margin: 0 auto;
     font-size: 0;
 }
+
+#content
+{
+    margin-top: calc(100vh + 100px) !important;
+}
+.page_title_block
+{
+    margin-top: 0 !important;
+}
 .about_column
 {
   width: 100%;

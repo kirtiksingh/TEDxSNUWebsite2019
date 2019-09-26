@@ -6,6 +6,11 @@ body
     overflow-x: hidden;
     background-color: #000;
     text-align: center;
+    overflow-x: hidden;
+}
+*
+{
+    box-sizing: border-box;
 }
 body p
 {
@@ -25,7 +30,7 @@ a{
 }
 #top_strip
 {
-    position: fixed;
+    position: absolute;
     left: 50vw;
     top: calc(50vh - 80px);
     transform: translateX(-50%);
@@ -35,12 +40,13 @@ a{
     padding: 20px;
     background-color: #E6D14100;
     border-radius: 10px;
-    transition-duration: 0.6s;
+    transition: 0.6s, 0s top, 0s opacity, 0s background-color;
 }
 
 #top_strip.downer
 {
     top: 20px;
+    position: fixed;
     background-color: #000;
     box-shadow:
                 -4px -4px 0 2px #E53293,
@@ -69,7 +75,7 @@ a{
     right: 0;
     font-size: 0;
     opacity: 1;
-    transition-duration: 0.6s;
+    transition: 0.6s, 0s opacity;
     display: inline-block;
     white-space: nowrap;
 }
@@ -79,11 +85,12 @@ a{
 {
     opacity: 0;
     height: 0;
+    overflow: hidden;
 }
 
 .menu-item
 {
-    padding: 10px 10px;
+    padding: 10px 30px;
     color: white;
     font-size: 18px;
     display: inline-block;
@@ -123,23 +130,15 @@ a{
     letter-spacing: 1px;
     transition-timing-function: ease-in-out;
 }
-.menu-item.selected{
-    color: #e62b1e;
-    padding: 7.5px 20px;
-    font-size: 23px;
-}
+.menu-item.selected,
 .menu-item:hover{
-    color: #ff2c1f;
-    padding: 7.5px 20px;
+    color: #E53293;
+    padding: 7.5px 40px;
     font-size: 23px;
 }
-.drop-down-menu-bar .menu-drop-down-item.selected{
-    color: #e62b1e;
-    padding: 7.5px 10px;
-    font-size: 20px;
-}
+.drop-down-menu-bar .menu-drop-down-item.selected,
 .drop-down-menu-bar .menu-drop-down-item:hover{
-    color: #ff2c1f;
+    color: #E53293;
     padding: 7.5px 10px;
     font-size: 20px;
 }
@@ -172,32 +171,36 @@ img#tedxLogo
 }
 #content
 {
-    margin: calc(100vh + 100px) 100px 0;
+    margin: 0 100px 0;
     z-index: 10;
     padding: 20px;
+    width: calc(100% - 200px);
     box-sizing: border-box;
     background-color: #E6D141 !important;
+}
+
+.page_title_block
+{
+    margin-top: 200px;
 }
 
 
 .page_title_block
 {
-    width: calc(100% - 20px);
+    width: 100%;
     min-height: 200px;
     font-size: 0;
     text-align: center;
-    padding: 10px;
-    background-color: #000000;
-    border-bottom: 4px inset #e62b1e;
+    padding: 10px 0;
+
 }
 .page_title_cont
 {
     display: inline-block;
-    width: calc(100% - 20px);
+    width: calc(100% - 200px);
+    padding: 30px 10px 50px 10px;
+    background-color: #000;
     text-align: left;
-    max-width: 900px;
-    padding: 30px 10px 10px 10px;
-    text-align: center;
 }
 .page_title_block a
 {
@@ -207,21 +210,21 @@ img#tedxLogo
 .page_title_block .page_title_white
 {
     color: #FFF;
-    font-size: 50px;
+    font-size: 45px;
     vertical-align: top;
 }
 .page_title_block .page_title_red
 {
-    color: #e62b1e;
-    font-size: 50px;
+    color: #FFF;
+    font-size: 45px;
     vertical-align: top;
 }
 .page_title_block p
 {
     font-size: 18px;
-    text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
+    text-align: left;
+    color: #FFF;
+    font-weight: bold;
 }
 a.nominate_a_speaker
 {
@@ -229,7 +232,7 @@ a.nominate_a_speaker
     padding: 10px;
     text-align: center;
     font-size: 25px;
-    background-color: #e62b1e;
+    background-color: #E53293;
     color: white;
     margin: 0 10px;
 }
@@ -308,7 +311,7 @@ a.nominate_a_speaker
         top: 0 !important;
         font-size: 0;
         text-align: left;
-        padding: 10px;
+        padding: 0 0 0 10px;
         width: 100vw;
         height: 80px;
         border-radius: 0 !important;
@@ -336,8 +339,8 @@ a.nominate_a_speaker
     }
     #content
     {
-        margin-right: 20px;
-        margin-left: 20px;
+        width: calc(100% - 30px);
+        margin: 15px;
     }
     #footer
     {
@@ -352,7 +355,7 @@ a.nominate_a_speaker
     #menu-space
     {
         position: absolute;
-        left: -100vw;
+        left: calc(-100vw - 10px);
         height: calc(100vh - 80px);
         top: 80px;
         padding: 40px;
@@ -360,7 +363,6 @@ a.nominate_a_speaker
         background-color: #000;
         white-space: normal;
         text-align: center;
-        transition-duration: 0.4s;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -400,6 +402,14 @@ a.nominate_a_speaker
     .menu-item.selected
     {
         padding: 10px 0;
+    }
+
+    .page_title_cont
+    {
+        display: inline-block;
+        width: calc(100% - 40px);
+        text-align: left;
+        margin: 0 20px;
     }
 
     .page_title_block .page_title_white,
