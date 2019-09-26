@@ -124,22 +124,22 @@ a{
     transition-timing-function: ease-in-out;
 }
 .menu-item.selected{
-    color: #e62b1e;
+    color: #e53293;
     padding: 7.5px 20px;
     font-size: 23px;
 }
 .menu-item:hover{
-    color: #ff2c1f;
+    color: #e53293;
     padding: 7.5px 20px;
     font-size: 23px;
 }
 .drop-down-menu-bar .menu-drop-down-item.selected{
-    color: #e62b1e;
+    color: #e53293;
     padding: 7.5px 10px;
     font-size: 20px;
 }
 .drop-down-menu-bar .menu-drop-down-item:hover{
-    color: #ff2c1f;
+    color: #e53293;
     padding: 7.5px 10px;
     font-size: 20px;
 }
