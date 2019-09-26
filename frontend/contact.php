@@ -196,7 +196,7 @@ $GLOBALS['printPage'] = function()
 		</div>
         <div id="info_block">
             <div class="info_block_row">
-                <span><i class="fas fa-envelope"></i> tedx.club@snu.edu.in</span>
+                <span><i class="fas fa-envelope"></i>  tedx.club@snu.edu.in</span>
             </div>
         </div>
 		<form action="" id="form_contact_form" method="post">
