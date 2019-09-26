@@ -142,7 +142,6 @@ $(function()
     $("#past_speakers_tile_ribbon > .rel").stop().animate({"scrollLeft": thumb_move * elemOneRow}, 400);
 
   });
-  $(".past_speaker_single_thumb").eq(0).trigger('click');
   $(window).resize(function()
   {
     $("#slideshow_holder").height(0.66 * $("#slideshow_holder").width());

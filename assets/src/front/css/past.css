@@ -34,7 +34,7 @@
 {
   width: 100%;
   display: inline-block;
-  background-color: #141414;
+    border: 2px solid black;
   white-space: nowrap;
   overflow: hidden;
   font-size: 0;
@@ -42,7 +42,7 @@
 .past_speaker_single_content
 {
   width: 100%;
-  color: white;
+  color: black;
   font-size: 30px;
   padding: 40px;
   padding-bottom: 80px;
@@ -229,6 +229,28 @@ h1
     float: none;
     padding-top: 0;
   }
+    .past_speaker_single_content
+    {
+        padding: 20px 5px 30px;
+    }
+    
+    #past_speaker_content
+    {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .speaker_social_media
+    {
+        position: relative;
+        top: auto;
+        left: auto;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
 }
 @media screen and (min-width: 1200px)
 {
@@ -265,11 +287,6 @@ h1
 .arrows_to_move i
 {
   font-size: 20px;
-}
-
-#content
-{
-  margin-top: 200px;
 }
 
 @media only screen and (min-width: 600px){

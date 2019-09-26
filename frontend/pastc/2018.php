@@ -9,12 +9,14 @@ $GLOBALS['printPage'] = function()
     <link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/partners2.css">
 	<div class="page_title_block">
 		<div class="page_title_cont">
-			<span class="page_title_white">TEDxShivNadarUniversity</span><span class="page_title_red"> 2018</span><br>
+            <span class="page_title_white" style="font-size: 18px; color: #E53293">Past Conference</span><br>
+            <span class="page_title_white">TEDxShivNadarUniversity</span><span class="page_title_red"> 2018</span><br>
       <p>
         TEDxShivNadarUniversity 2018 was empowered by the two years of experience already under our belt. Even today, we are grateful to our speakers and partners from our previous years for their support and contribution.
       </p>
 		</div>
 	</div>
+    <div id="content">
   <div id="past_speakers_display">
     <div id="past_speakers_tile_ribbon">
       <div class="rel">
@@ -315,41 +317,7 @@ $GLOBALS['printPage'] = function()
             <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/partners/mediapartners/hobby.jpg">
         </div>
     </div>
-<!--	<div id="slideshow_holder">-->
-<!--		<div class="rel">-->
-<!--			<div id="slideshow_reel">-->
-<!--				<div class="slideshow_element">-->
-<!--						<img style="width: 100%;" src="--><?// echo $GLOBALS['astLink'] ; ?><!--images/gallery_17/1.jpg">-->
-<!--				</div>-->
-<!--				<div class="slideshow_element">-->
-<!--						<img style="width: 100%;" src="--><?// echo $GLOBALS['astLink'] ; ?><!--images/gallery_17/2.jpg">-->
-<!--				</div>-->
-<!--				<div class="slideshow_element">-->
-<!--						<img style="width: 100%;" src="--><?// echo $GLOBALS['astLink'] ; ?><!--images/gallery_17/3.jpg">-->
-<!--				</div>-->
-<!--				<div class="slideshow_element">-->
-<!--						<img style="width: 100%;" src="--><?// echo $GLOBALS['astLink'] ; ?><!--images/gallery_17/4.jpg">-->
-<!--				</div>-->
-<!--				<div class="slideshow_element">-->
-<!--					<div class="theSocialHolder">-->
-<!--						<span class="follow_ss_text">For more, visit us on:</span><br><br>-->
-<!--						<a href="https://www.instagram.com/tedxshivnadaruniversity/" target="_blank"><i class="fab fa-instagram"></i></a>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--		<div class="slideshow_arrow ss_move_left">-->
-<!--			<div class="rel">-->
-<!--				<i class="fas fa-caret-left"></i>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--		<div class="slideshow_arrow ss_move_right">-->
-<!--			<div class="rel">-->
-<!--				<i class="fas fa-caret-right"></i>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--	</div>-->
-
+    </div>
 <?php
 }
 ?>

@@ -3,7 +3,7 @@
 {
     padding: 20px 100px;
     min-height: 200px;
-    width: calc(100vw - 200px);
+    width: 100%;
     background-color: #000;
     font-size: 0;
 }
@@ -31,7 +31,7 @@ span.span-white
 }
 .about_tedx
 {
-  width: calc(100% - 60px);
+  width: 100%;
   max-width: 1000px;
   vertical-align: top;
   position: relative;
@@ -58,6 +58,7 @@ span.span-white
   .about_tedx
   {
     font-size: 15px;
+      padding: 10px;
   }
   .about_tedx h3
   {
