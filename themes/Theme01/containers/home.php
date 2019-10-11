@@ -30,8 +30,8 @@
 							<a href="http://www.instagram.com/tedxshivnadaruniversity"><i class="fab fa-instagram"></i></a>
 							<a href="https://twitter.com/TEDxShivNadarU"><i class="fab fa-twitter"></i></a><br>
 							<p style='font-family: "Arial", sans-serif;'>This independent <span
-									style="color: #4d2a7c; font-weight: bold; text-shadow: 0px 1px #e6d141;">TEDx</span> event is operated under license from
-							<span style="color: #4d2a7c; font-weight: bold; text-shadow: 0px 1px #e6d141;">TED</span>.</p>
+									style="color: #4d2a7c; font-weight: bold;">TEDx</span> event is operated under license from
+							<span style="color: #4d2a7c; font-weight: bold;">TED</span>.</p>
 						</div>
 					</div>
 				</div>

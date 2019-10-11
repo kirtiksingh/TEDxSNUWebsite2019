@@ -25,6 +25,16 @@ $GLOBALS['printPage'] = function()
         </p>
       </div>
     </div>
+    <div class="faq_element">
+      <div class="faq_element_header">
+        <span class="faq_element_header_content">Q:  When and where will TEDxShivNadarUniversity take place this year? How long will it last, and will there be breaks in between?</span><i class="fas fa-caret-down"></i>
+      </div>
+      <div class="faq_element_content">
+        <p>
+        TEDxShivNadarUniversity 2019 is scheduled for Sunday, November 17, 2019. It will be held on our <a target="" href="<?php echo $GLOBALS['host'] ;?>contact"> university campus.</a> The conference shall begin at 9 am and will proceed until 6 pm with breaks for refreshments and lunch in between. This will be followed by high-tea. We shall also have performances in between the talks.
+        </p>
+      </div>
+    </div>
    <div class="faq_element">
       <div class="faq_element_header">
         <span class="faq_element_header_content">Q: Where can I watch the talks from the previous conferences?</span><i class="fas fa-caret-down"></i>
@@ -32,9 +42,11 @@ $GLOBALS['printPage'] = function()
       <div class="faq_element_content">
         <p>
 					A: <br>
-          <a target="_blank" href="https://www.youtube.com/watch?v=Sm2Ulzo7ALs&list=PLsRNoUx8w3rM2txCPdbcKS1MnU34LWl7E">TEDxShivNadarUniversity 2016</a><br>
+          <a target="_blank" href="<?php echo $GLOBALS['host'] ;?>pastc/2016">TEDxShivNadarUniversity 2016</a><br>
           <br>
-          <a target="_blank" href="https://www.youtube.com/watch?v=owTmBYNwWZ4&list=PLsRNoUx8w3rMP4QqQz3aoPte4XKJU169q">TEDxShivNadarUniversity 2017</a><br>
+          <a target="_blank" href="<?php echo $GLOBALS['host'] ;?>pastc/2017">TEDxShivNadarUniversity 2017</a><br>
+          <br>
+          <a target="_blank" href="<?php echo $GLOBALS['host'] ;?>pastc/2018">TEDxShivNadarUniversity 2018</a><br>
         </p>
       </div>
     </div>
@@ -53,6 +65,14 @@ $GLOBALS['printPage'] = function()
       </div>
       <div class="faq_element_content">
         <p>A: Yes, absolutely. TEDxShivNadarUniversity is not only limited to students of Shiv Nadar University. Anyone with an open and curious mind can buy a ticket to attend the event.</p>
+      </div>
+    </div>
+    <div class="faq_element">
+      <div class="faq_element_header">
+        <span class="faq_element_header_content">Q: How and when can I buy tickets for the conference? </span><i class="fas fa-caret-down"></i>
+      </div>
+      <div class="faq_element_content">
+        <p>A: Tickets will go up for sale on our website. This year the first phase of tickets will go on sale on October 16th.</p>
       </div>
     </div>
     <div class="faq_element">
@@ -78,7 +98,7 @@ $GLOBALS['printPage'] = function()
           <span class="faq_element_header_content">Q: What does the ticket cost include?</span><i class="fas fa-caret-down"></i>
         </div>
         <div class="faq_element_content">
-          <p>A: Apart from entry to the conference area, the ticket also provides for your food and refreshments, your delegate kit, interaction with speakers and partners and dignitaries, and a certificate for attending the conference.
+          <p>A: Apart from entry to the conference area with multiple activities and displays in the pre-functionary area, the ticket also provides for your food and refreshments, your delegate kit, interaction with speakers and partners and dignitaries, and a certificate for attending the conference. It also includes the costs and conveniences for any attendee exclusive events. 
           </p>
         </div>
       </div>
@@ -96,7 +116,7 @@ $GLOBALS['printPage'] = function()
           <span class="faq_element_header_content">Q: Is there any provision for transportation to and from the event venue for attendees from Delhi-NCR?</span><i class="fas fa-caret-down"></i>
         </div>
         <div class="faq_element_content">
-          <p>A: Transportation will be provided on request. The pickup and drop-off point shall be the Botanical Garden Metro Station in Noida. Reach out to us <a target="_blank" href="<?php echo $GLOBALS['host'] ; ?>contact">here</a>.
+          <p>A: Transportation will be provided on request. The pickup and drop-off point shall be the Botanical Garden Metro Station in Noida. Reach out to us at tedx.club@snu.edu.in.
           </p>
         </div>
       </div>
@@ -159,6 +179,24 @@ $GLOBALS['printPage'] = function()
       </div>
       <div class="faq_element">
         <div class="faq_element_header">
+          <span class="faq_element_header_content">Q: How long does the conference last? Will there be breaks in between the talks?</span><i class="fas fa-caret-down"></i>
+        </div>
+        <div class="faq_element_content">
+          <p>A: The conference will begin at 9 am and will proceed until 6 pm with breaks for refreshments and lunch in between. This will be followed by high-tea. We shall also have performances in between the talks.
+          </p>
+        </div>
+      </div>
+      <div class="faq_element">
+        <div class="faq_element_header">
+          <span class="faq_element_header_content">Q: What is the theme for the conference?</span><i class="fas fa-caret-down"></i>
+        </div>
+        <div class="faq_element_content">
+          <p>For the first time in our history, we have a theme for our conference. The theme is Blindspots. Read more about it here (insert hyperlink).
+          </p>
+        </div>
+      </div>
+      <div class="faq_element">
+        <div class="faq_element_header">
           <span class="faq_element_header_content">Q: How can my company get involved as a partner or sponsor of the conference?</span><i class="fas fa-caret-down"></i>
         </div>
         <div class="faq_element_content">
@@ -171,7 +209,7 @@ $GLOBALS['printPage'] = function()
           <span class="faq_element_header_content">Q: Is there any way to receive regular updates and news about your conference?</span><i class="fas fa-caret-down"></i>
         </div>
         <div class="faq_element_content">
-          <p>A: You can sign up for our newsletter <a target="_blank" href="<?php echo $GLOBALS['host'] ; ?>#newsletter_container">here</a>. Everyone who attends TEDxShivNadarUniversity will be added to our mailing list, in order to receive future announcements and communications from TEDxShivNadarUniversity. Apart from this, you can follow us on our social media handles: <a target="_blank" href="https://www.instagram.com/tedxshivnadaruniversity/">Instagram</a>, <a target="_blank" href="https://www.facebook.com/tedxshivnadaruniversity/">Facebook</a> and <a target="_blank" href="https://twitter.com/tedxshivnadaru?lang=en">Twitter</a>.
+          <p>You can follow us on our social media handles: <a target="_blank" href="https://www.instagram.com/tedxshivnadaruniversity/">Instagram</a>, <a target="_blank" href="https://www.facebook.com/tedxshivnadaruniversity/">Facebook</a> and <a target="_blank" href="https://twitter.com/tedxshivnadaru?lang=en">Twitter</a>.
           </p>
         </div>
       </div>
