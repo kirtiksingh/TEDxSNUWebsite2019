@@ -298,15 +298,15 @@ $GLOBALS['printPage'] = function()
       </div>
         <div id="partner_grid">
         <h1 style="font-size: 50px">Partners 2016</h1>
-            <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/dassault.png">
-            <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/grabon_logo.png">
-            <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/saavn_logo.png">
-            <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/feministaa_logo.png">
-            <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/citizen_logo.png">
-            <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/dubeat_logo.png">
-          <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/uex_logo.png">
-        <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/yka_logo.png">
-        <img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/sponsors_17/ys_logo.png">
+            <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/dassault.png">
+            <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/grabon_logo.png">
+            <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/saavn_logo.png">
+            <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/feministaa_logo.png">
+            <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/citizen_logo.png">
+            <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/dubeat_logo.png">
+          <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/uex_logo.png">
+        <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/yka_logo.png">
+        <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/sponsors_17/ys_logo.png">
 
         </div>
       <div id="slideshow_holder">

@@ -9,9 +9,9 @@ body
 #partner_grid
 {
     display: inline-block;
-  max-width: 1000px;
-  margin: 60px 40px;
-  background-color: #fff;
+    max-width: 1000px;
+    margin: 60px 40px;
+    background-color: #e6d141;
     box-sizing: border-box;
 }
 .partner_grid
