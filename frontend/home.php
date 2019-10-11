@@ -1,37 +1,85 @@
 <?php
 $GLOBALS['themeVari'] = "home";
 $GLOBALS['titleSub'] = $GLOBALS['siteMeta']['desc'];
-$GLOBALS['jsInclude'] = array("http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js", "src/front/js/home.js");
+$GLOBALS['jsInclude'] = array("https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js", "src/front/js/jquery.downCount.js", "src/front/js/home.js");
 $GLOBALS['printPage'] = function()
 {
 	?>
 	<link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/home.css">
 
-    <style>
-        #hidderReveal
-        {
-            position: absolute;
-            height: 200px;
-            width: 200px;
-            -webkit-border-radius: 100px;
-            -moz-border-radius: 100px;
-            border-radius: 100px;
-            overflow: hidden;
-            top: 50%;
-            left: 50%;
+    <style type="text/css">
+        ul.countdown {
+            list-style: none;
+            margin: 35px 0;
+            padding: 0;
+            display: block;
+            text-align: center;
+            color: #FFFFFF;
         }
-        #hidderReveal > .page_title_cont
+        ul.countdown h1
+        {
+            font-size: 20px;
+        }
+        ul.countdown li {
+            display: inline-block;
+        }
+        ul.countdown li span {
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 80px;
+        }
+        ul.countdown li.seperator {
+            font-size: 80px;
+            line-height: 70px;
+            vertical-align: top;
+        }
+        ul.countdown li p {
+            font-size: 12px;
+        }
+        #anim
         {
             position: absolute;
-            top: -100%;
-            left: -100%;
-            padding: 0 !important;
-            transform: translate(calc(50vh - 50%), calc(50vw - 50%));
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #timeTill
+        {
+            padding: 10px;
+            display: inline-block;
+            background-color: #00000055;
+            z-index: 100000;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 20px;
+            white-space: nowrap;
         }
     </style>
     <div class="page_title_block" style="height: 100vh; position: fixed; top: 0; left: 0; width: 100vw; z-index: -1;">
-        <div id="page_title_cont" style="height: 100%;">
-
+        <div id="anim"></div>
+        <div id="page_title_cont" style="height: 100%; background-color: transparent;">
+            <div id="timeTill">
+                <ul class="countdown">
+                    <h1>Time to Ticket Sales:</h1>
+                    <li> <span class="days">00</span>
+                        <p class="days_ref">days</p>
+                    </li>
+                    <li class="seperator">.</li>
+                    <li> <span class="hours">00</span>
+                        <p class="hours_ref">hours</p>
+                    </li>
+                    <li class="seperator">:</li>
+                    <li> <span class="minutes">00</span>
+                        <p class="minutes_ref">minutes</p>
+                    </li>
+                    <li class="seperator">:</li>
+                    <li> <span class="seconds">00</span>
+                        <p class="seconds_ref">seconds</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div id="content">

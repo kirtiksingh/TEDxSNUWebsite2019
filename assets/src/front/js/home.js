@@ -67,7 +67,7 @@ $(function()
 
 $(function() {
     particlesJS(
-        "page_title_cont",
+        "anim",
         {
             "particles": {
                 "number": {
@@ -177,6 +177,14 @@ $(function() {
 });
 
 $(function () {
+
+    $('.countdown').downCount({
+        date: '10/15/2019 12:00:00',
+        offset: +10
+    }, function () {
+        //
+    });
+
     window.onscroll = function(e)
     {
         if(window.scrollY > (0.5 * window.innerHeight - 80))

@@ -90,7 +90,7 @@ a{
 
 .menu-item
 {
-    padding: 10px 30px;
+    padding: 10px;
     color: white;
     font-size: 18px;
     display: inline-block;
@@ -121,7 +121,7 @@ a{
 }
 .drop-down-menu-bar .menu-drop-down-item
 {
-    padding: 10px 10px;
+    padding: 10px;
     color: white;
     font-size: 15px;
     display: inline-block;
@@ -133,7 +133,7 @@ a{
 .menu-item.selected,
 .menu-item:hover{
     color: #E53293;
-    padding: 7.5px 40px;
+    padding: 7.5px 20px;
     font-size: 23px;
 }
 .drop-down-menu-bar .menu-drop-down-item.selected,
@@ -241,8 +241,8 @@ a.nominate_a_speaker
 {
     width: calc(100% - 200px);
     background-color: #000;
-    margin: 10px 100px 0;
-    border: 5px solid #E6D141;
+    padding: 50px 10px;
+    margin: auto;
     box-sizing: border-box;
 }
 #footer_cont

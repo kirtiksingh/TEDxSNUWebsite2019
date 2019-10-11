@@ -10,11 +10,9 @@ $(function()
     $(window).resize(function()
     {
 
-        var carousel_width = $("#speaker_carousel_cont").width();
-        var element_width = $(".speaker_element").width();
-        var element_padding = 4;
+        var carousel_width = $("#speaker_carousel_cont").outerWidth();
+        var element_width = $(".speaker_element").outerWidth();
         var noOfElements = 0;
-        var content_height = 300;
 
 
         if(carousel_width >= 1074)
@@ -29,8 +27,7 @@ $(function()
             noOfElements = 1;
         }
 
-        $(".speakers_element_content_andar_ka_content").css("width", (noOfElements * 358) -88 + "px");
-      var carousel_width = $("#speaker_carousel_cont").width();
+        $(".speakers_element_content_andar_ka_content").css("width", ((noOfElements * element_width) + ((noOfElements-1) * 12)) + "px");
       $(".speaker_element")
           .each(function()
           {
@@ -41,16 +38,21 @@ $(function()
             if(rowId == 0)
             rowId = noOfElements;
 
-            var leftwidth = (rowId - 1)*(element_width + 8);
+            var leftwidth = (rowId - 1)*(element_width + 12);
             var heightOfContent = $(this).find(".speakers_element_content_andar_ka_content").height() + 40;
 
             $(this)
                 .find(".speakers_element_content")
                 .css(
                   {
-                    "width"  : (noOfElements * 358) - 8 + "px",
+                    "width"  : ((noOfElements * element_width) + ((noOfElements-1) * 12)) + "px",
                     "left"   : "-" + leftwidth + "px"});
 
+            $(this).find(".speaker_element_small_desc").css(
+                {
+                    "width":   $(this).outerHeight()
+                }
+            );
             $(this)
                 .find("i.notch_arrow")
                 .css(

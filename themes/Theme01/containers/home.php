@@ -13,7 +13,6 @@
 	</head>
 	<body>
 				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-				<link type="text/css" rel="stylesheet" href="<?php echo $GLOBALS['astLink']; ?>src/plugins/clock_assets/flipclock.css" />
                 <?php $GLOBALS['printPage'](); ?>
 				<div id="footer">
 					<div id="footer_cont">
@@ -43,17 +42,9 @@
 		                <div id="menu-space">
                             <div class="rel">
                                 <a class="menu-item" id="home-menu-item" href="<?php echo $GLOBALS['host']; ?>">HOME</a>
-                                <!--                                <div class="menu-item drop-down-item" id="about-menu-item">ABOUT-->
-                                <!--                                    <div class="rel">-->
-                                <!--                                        <div class="drop-down-menu-bar">-->
                                 <a class="menu-item" id="about-menu-item" href="<?php echo $GLOBALS['host']; ?>about">ABOUT</a>
-                                <!--                                            <a class="menu-drop-down-item" href="-->
-                                <?php // echo $GLOBALS['host'] ; ?><!--meet_the_team">THE TEAM</a><br>-->
-                                <!--                                        </div>-->
-                                <!--                                    </div>-->
-                                <!--                                </div>-->
-                                <!--                                <a class="menu-item" href="-->
-                                <?php // echo $GLOBALS['host'] ; ?><!--about" id="about-menu-item">ABOUT US</a>-->
+                                <a class="menu-item" id="speakers-menu-item" href="<?php echo $GLOBALS['host']; ?>speakers">SPEAKERS</a>
+                                <a class="menu-item" id="partners-menu-item" href="<?php echo $GLOBALS['host']; ?>partners">PARTNERS</a>
                                 <div class="menu-item drop-down-item" id="past-conf-menu-item">PAST CONFERENCES
                                     <div class="rel">
                                         <div class="drop-down-menu-bar">
