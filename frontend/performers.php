@@ -94,36 +94,20 @@ $GLOBALS['printPage'] = function () {
                                 </div>
                             </div>
                         </div>
-                        <div class="speaker_element" data-speaker-identifier="">
-                            <div class="rel">
-                                <div class="speaker_element_background"
-                                style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/ALIM-nobg.png)">
-                                </div>
-                                <div class="speaker_element_small_desc">
-                                    <h2>Alim Chandani</h2><br>
-                                    <h3>Founder of Global Reach Out</h3>
-                                </div>
-                                <div class="speakers_element_content">
-                                    <div class="rel">
-                                        <i class="notch_arrow fas fa-sort-up"></i>
-                                        <div class="speakers_element_content_andar_ka_content">
-                                            <i class="fas fa-times cross_it"></i>
-                                            <h1>Alim Chandani</h1>
-                                            <h2>Founder of Global Reach Out</h2>
-                                            <p>
-                                                In a country where disability means the end of all happiness and aspirations, here's a person who is living life to the fullest despite any barriers. Alim Chandani was born deaf. But this did not stop him from creating a huge din about the rights of the hearing impaired.
-                                            </p>
-                                            <p>
-                                                Dr. Alim Chandani, is the founder of Access Mantra, an accessible Resource and Innovation Centre of the Deaf in India. A pioneer in the education of the deaf and in managing and organising events for deaf people, he builds a world where he sees communities co-existing despite their differences. After his Doctorate from the prestigious Gallaudet University, he established the Global Reach Out Initiative. He shifted his efforts to India after joining hands with CentumGRO and now is being funded by Airtel. He also organises an annual quiz, ISL, where teams of people with and without hearing impairment communicate and look for news ways to share ideas. Having worked with governments and global organisations on the education and welfare of the deaf, he has pioneered several campaigns and innovations and is a leading authority in this field.
-                                                This November 17, come meet Dr. Alim, to discover the ways he's crossed the barriers of communication and found ways to spread his ideas, living by his motto that impossible dreams can become possible. Tickets go live soon!
-                                            </p>
-                                            <div class="speaker_social_media">
-                                                <a href="https://facebook.com/profile.php?id=24411404" target="_blank"><i
-                                                            class="fab fa-facebook"></i></a>
-                                                <a href="https://twitter.com/alimchandani?lang=en" target="_blank"><i
-                                                            class="fab fa-twitter"></i></a>
-                                                <a href="https://www.linkedin.com/in/alimchandani?originalSubdomain=in"
-                                                   target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <div class="speaker_element anonymous" data-speaker-identifier="">
+                                <div class="rel">
+                                    <div class="speaker_element_background"
+                                        style="background-image: url()">
+                                    </div>
+                                    <div class="speaker_element_small_desc">
+                                        <h2>Coming Soon</h2><br>
+                                        <h3>To Be Announced</h3>
+                                    </div>
+                                    <div class="speakers_element_content">
+                                        <div class="rel">
+                                            <i class="notch_arrow fas fa-sort-up"></i>
+                                            <div class="speakers_element_content_andar_ka_content">
+                                                <i class="fas fa-times cross_it"></i>
                                             </div>
                                         </div>
                                     </div>
