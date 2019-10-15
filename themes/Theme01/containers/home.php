@@ -42,8 +42,26 @@
 		                <div id="menu-space">
                             <div class="rel">
                                 <a class="menu-item" id="home-menu-item" href="<?php echo $GLOBALS['host']; ?>">HOME</a>
-                                <a class="menu-item" id="about-menu-item" href="<?php echo $GLOBALS['host']; ?>about">ABOUT</a>
-                                <a class="menu-item" id="speakers-menu-item" href="<?php echo $GLOBALS['host']; ?>speakers">SPEAKERS</a>
+                                <div class="menu-item drop-down-item" id="about-menu-item">ABOUT
+                                    <div class="rel">
+                                        <div class="drop-down-menu-bar">
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>faq">FAQs</a><br>
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>about">THE CONFERENCE</a><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-item drop-down-item" id="about-menu-item">PRESENTERS
+                                    <div class="rel">
+                                        <div class="drop-down-menu-bar">
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>speakers">SPEAKERS</a><br>
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>performers">PERFORMERS</a><br>
+                                        </div>
+                                    </div>
+                                </div>
                                 <a class="menu-item" id="partners-menu-item" href="<?php echo $GLOBALS['host']; ?>partners">PARTNERS</a>
                                 <div class="menu-item drop-down-item" id="past-conf-menu-item">PAST CONFERENCES
                                     <div class="rel">
