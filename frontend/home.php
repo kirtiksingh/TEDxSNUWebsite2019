@@ -86,17 +86,17 @@ $GLOBALS['printPage'] = function()
         <div id="slideshow_holder">
             <div class="rel">
                 <div id="slideshow_reel">
-                    <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
-                        <img style="width: 100%;padding:0" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-01.png">
+                    <a class="slideshow_element" style="background-color:#e72b93" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                        <img style="width: 100%;padding:0 50px 0 50px;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-01.png">
                     </a>
-                    <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
-                        <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-05.png">
+                    <a class="slideshow_element" style="background-color:#4d2a7d" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                        <img style="width: 100%;padding:0 50px 0 50px;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-05.png">
                     </a>
-                    <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
-                        <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-06.png">
+                    <a class="slideshow_element" style="background-color:#e72b93" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                        <img style="width: 100%;padding:0 50px 0 50px;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-06.png">
                     </a>
-                    <a class="slideshow_element" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
-                        <img style="width: 100%;" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-09.png">
+                    <a class="slideshow_element" style="background-color:#4d2a7d" href="<?php echo $GLOBALS['host'] ; ?>pastc/2018">
+                        <img style="width: 100%;padding:0 50px 0 50px;ds" src="<?php echo $GLOBALS['astLink'] ; ?>images/home_page_ss/SpeakerSlides-09.png">
                     </a>
                 </div>
             </div>
