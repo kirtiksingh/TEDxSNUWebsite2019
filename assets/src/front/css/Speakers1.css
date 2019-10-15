@@ -1,3 +1,6 @@
+#content{
+    margin-top:0px!important;
+}
 h1#speaker_h1 {
     font-size: 50px;
     text-align: center;
@@ -52,12 +55,13 @@ body {
     left: 0;
     border-radius: 2px;
     background-color: #000;
-    background-size: cover;
+    background-size: contain;
     background-clip: content-box;
-    background-position: center;
+    background-position: center bottom;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     background-repeat: no-repeat;
+    filter: grayscale(1);
 }
 
 .speaker_element_small_desc {
@@ -169,6 +173,7 @@ body {
 .speaker_element.anonymous .speaker_element_background {
     background-size: contain;
 }
+
 
 @media screen and (max-width: 900px) {
     #content

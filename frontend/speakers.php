@@ -26,7 +26,7 @@ $GLOBALS['printPage'] = function () {
                         <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                     style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/PradeepaNarayanaswamy_nobg.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
                                     <h2>Pradeepa Narayanaswamy</h2><br>
@@ -66,7 +66,7 @@ $GLOBALS['printPage'] = function () {
                         <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/Mahima_Gujral.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
                                     <h2>Mahima Gujral Wadhwa</h2><br>
@@ -105,7 +105,7 @@ $GLOBALS['printPage'] = function () {
                         <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url(<?php echo $GLOBALS['astLink']; ?>images/speakers_18/vasu_primlani.png)">
+                                style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/ALIM-nobg.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
                                     <h2>Alim Chandani</h2><br>
@@ -142,7 +142,7 @@ $GLOBALS['printPage'] = function () {
                         <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                    style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/Manit_Ramaiya_nobg.png)">     
                                 </div>
                                 <div class="speaker_element_small_desc">
                                     <h2>Manit Ramaiya</h2><br>
@@ -177,7 +177,7 @@ $GLOBALS['printPage'] = function () {
                         <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/Manisha_Lath_Gupta.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
                                     <h2>Manisha Lath Gupta</h2><br>
@@ -211,7 +211,7 @@ $GLOBALS['printPage'] = function () {
                         <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                     style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/abhinav.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
                                     <h2>Abhinav Chandel</h2><br>
@@ -248,7 +248,7 @@ $GLOBALS['printPage'] = function () {
                         <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/Chingmak_Chang_v6.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
                                     <h2>Chingmak Chang</h2><br>
