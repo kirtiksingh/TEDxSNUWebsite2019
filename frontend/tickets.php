@@ -6,7 +6,8 @@ $GLOBALS['printPage'] = function()
 {
     ?>
     <link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/tickets.css">
-    <div id="top_poster"></div><br>
+    <div id="content">
+	<div id="top_poster"></div><br>
     <div id="top_poster_two">
         <div class="left_bar">
             <h1 id="tedx_tix">TEDxShivNadarUniversity 2018</h1>
@@ -173,6 +174,7 @@ $GLOBALS['printPage'] = function()
             </ol>
         </div>
     </div>
+	</div>
     <?php
 }
 ?>

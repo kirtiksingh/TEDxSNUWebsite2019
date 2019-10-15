@@ -8,6 +8,7 @@ $GLOBALS['printPage'] = function()
 	<link rel="stylesheet" href="<?php echo $GLOBALS['astLink'] ; ?>src/front/css/partners.css">
 	<div class="page_title_block">
 		<div class="page_title_cont">
+            <span class="page_title_white" style="font-size: 18px; color: #E53293">We're grateful to</span><br>
 			<span class="page_title_white">OUR</span><span class="page_title_red"> PARTNERS</span>
 			<p>
 				TEDxShivNadarUniversity is made possible by the support of our generous partners. With their vision and commitment we are able to deliver one of the biggest TEDx conferences in the Delhi NCR region.

@@ -27,6 +27,7 @@
 						<div id="footer_social">
 							<a href="http://www.facebook.com/tedxshivnadaruniversity"><i class="fab fa-facebook"></i></a>
 							<a href="http://www.instagram.com/tedxshivnadaruniversity"><i class="fab fa-instagram"></i></a>
+							<a href="http://www.instagram.com/tedxshivnadaruniversity"><i class="fab fa-linkedin"></i></a>
 							<a href="https://twitter.com/TEDxShivNadarU"><i class="fab fa-twitter"></i></a><br>
 							<p style='font-family: "Arial", sans-serif;'>This independent <span
 									style="color: #4d2a7c; font-weight: bold;">TEDx</span> event is operated under license from
@@ -42,7 +43,16 @@
 		                <div id="menu-space">
                             <div class="rel">
                                 <a class="menu-item" id="home-menu-item" href="<?php echo $GLOBALS['host']; ?>">HOME</a>
-                                <a class="menu-item" id="about-menu-item" href="<?php echo $GLOBALS['host']; ?>about">ABOUT</a>
+                                <div class="menu-item drop-down-item" id="about-menu-item">ABOUT
+                                    <div class="rel">
+                                        <div class="drop-down-menu-bar">
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>faq">FAQs</a><br>
+                                            <a class="menu-drop-down-item"
+                                               href="<?php echo $GLOBALS['host']; ?>about">THE CONFERENCE</a><br>
+                                        </div>
+                                    </div>
+                                </div>
                                 <a class="menu-item" id="speakers-menu-item" href="<?php echo $GLOBALS['host']; ?>speakers">SPEAKERS</a>
                                 <a class="menu-item" id="partners-menu-item" href="<?php echo $GLOBALS['host']; ?>partners">PARTNERS</a>
                                 <div class="menu-item drop-down-item" id="past-conf-menu-item">PAST CONFERENCES
