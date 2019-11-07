@@ -89,7 +89,6 @@ $GLOBALS['printPage'] = function () {
                                                 All of this has helped her shape Sui as it is today. Be there on the 17th of November to listen to this remarkable woman talk about how changing wardrobes are positively impacting changing climate systems.
                                             </p>
                                             <div class="speaker_social_media">
-                                                <a href="http://ankurwarikoo.com/" target="_blank"
                                                 <a href="https://facebook.com/mahima.gujral?fref=nf" target="_blank"><i
                                                             class="fab fa-facebook"></i></a>
                                                 <a href="https://www.linkedin.com/in/mahimagujral?originalSubdomain=sg" target="_blank"><i
@@ -275,39 +274,67 @@ $GLOBALS['printPage'] = function () {
                                 </div>
                             </div>
                         </div>
-                        <div class="speaker_element anonymous" data-speaker-identifier="">
+                        <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/Sharath_Jeevan.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
-                                    <h2>Coming Soon</h2><br>
-                                    <h3>To Be Announced</h3>
+                                    <h2>Sharath Jeevan</h2><br>
+                                    <h3>Founder and CEO, STIR Education</h3>
                                 </div>
                                 <div class="speakers_element_content">
                                     <div class="rel">
                                         <i class="notch_arrow fas fa-sort-up"></i>
                                         <div class="speakers_element_content_andar_ka_content">
                                             <i class="fas fa-times cross_it"></i>
+                                            <h1>Sharath Jeevan</h1>
+                                            <h2>Founder and CEO, STIR Education</h2>
+                                            <p>
+                                                How to fix the education system? Our next speaker is on a mission to empower one million teachers who will impact the lives of 40 Cr children by 2022.
+                                                Sharath Jeevan, Founder and CEO of STIR Education believes that by helping teachers fall back in love with teaching again, one can come closer to answering the afore-mentioned question. With STIR Education, Sharath has been at the forefront of helping teachers connect with their passion so that they may further inspire a lifelong love of learning in children. Understanding that empowered and motivated teachers are key to educational success, Sharath is building a teacher-led movement for the change of educational practices and systems. The key to this, Sharath says is to re-ignite the 'Intrinsic Motivation' of educators, which he does through local networks of India. He takes teachers from government and affordable private schools through a deep process to innovate, implement, and influence the spread of ideas to address the challenges they face.
+                                                Formerly a whiz in the corporate world, and now a leading consultant for several government agencies, Sharath has revolutionised teaching across schools in India, Africa, and Indonesia. Watch him talk about the value of intrinsic motivation and the importance of motivated educators at TEDxShivNadarUniversity, this 17th of November.
+                                            </p>
+                                            
+                                            <div class="speaker_social_media">
+                                                <a href="https://twitter.com/sharath36" target="_blank"><i
+                                                            class="fab fa-twitter"></i></a>
+                                                <a href="https://in.linkedin.com/in/sharathjeevan" target="_blank"><i
+                                                            class="fab fa-linkedin"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="speaker_element anonymous" data-speaker-identifier="">
+                        <div class="speaker_element" data-speaker-identifier="">
                             <div class="rel">
                                 <div class="speaker_element_background"
-                                     style="background-image: url()">
+                                style="background-image: url(<?php echo $GLOBALS['astLink'] ; ?>images/speaker_19/Maniesh_Paul.png)">
                                 </div>
                                 <div class="speaker_element_small_desc">
-                                    <h2>Coming Soon</h2><br>
-                                    <h3>To Be Announced</h3>
+                                    <h2>Maniesh Paul<h2>
+                                    <h3>Founder of Sui</h3>
                                 </div>
                                 <div class="speakers_element_content">
                                     <div class="rel">
                                         <i class="notch_arrow fas fa-sort-up"></i>
                                         <div class="speakers_element_content_andar_ka_content">
                                             <i class="fas fa-times cross_it"></i>
+                                            <h1>Maniesh Paul</h1>
+                                            <h2>Founder of Sui</h2>
+                                            <p>
+                                                An entertainer extraordinaire, a multifaceted personality and everyone's favourite television face - this speaker wears many hats. Starting off as a VJ for Zee music and an RJ for Radio City where he immortalised the phrase "Kasakai Mumbai", he then took to the stage where his career then took wings.
+                                            </p>
+                                            <p>
+                                               Having acted in over 10 films and having hosted over twice that number of television shows and award shows, you may know him as the joyous host of Science of Stupid, Jhalak Dikhlaa Jaa, or India's Got Talent amongst the several shows in his portfolio. An award winning anchor, and one of the most cheerful and easy going people in the industry, he has carved a niche for himself in the Indian Film and Television industry with his enthusiasm to continuously diversify into different areas of entertainment. TEDxShivNadarUniversity is proud to bring to you its next speaker (not MC) - Mr. Maniesh Paul
+                                            </p>
+                                            <div class="speaker_social_media">
+                                                <a href="https://www.facebook.com/ManishPaul03/" target="_blank"><i
+                                                            class="fab fa-facebook"></i></a>
+                                                <a href="https://www.instagram.com/manieshpaul/?hl=en" target="_blank"><i
+                                                            class="fab fa-instagram"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

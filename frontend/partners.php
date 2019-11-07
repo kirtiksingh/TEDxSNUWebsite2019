@@ -35,7 +35,9 @@ $GLOBALS['printPage'] = function()
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/redwolf.png">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/Sleepy OWl.jpg">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/SUSTAINITY_LOGO-01.jpg">
+		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/peppy.png">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/tss_logo.jpg">
+		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/smaash.png">
       </div>
 
 		<h1>Media Partners</h1>
