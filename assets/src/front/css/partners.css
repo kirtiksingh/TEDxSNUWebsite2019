@@ -5,6 +5,7 @@ body
 
 #content{
     margin-top: 200px;
+    padding: 0px;;
 }
 #partner_grid
 {
@@ -35,7 +36,7 @@ img.partner-logo
   vertical-align: middle;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .partner_grid img.partner-logo
 {
@@ -60,8 +61,8 @@ img.partner-logo.size_title
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    text-align: left;
-    margin: 50px 0 10px 0;
+    text-align: center;
+    margin: 10px 0 10px 0;
     border-bottom: 8px solid #e53293 ;    /*#666; */
 }
 #partner_grid > h1:nth-child(1)
@@ -84,6 +85,9 @@ img.partner-logo.size_title
 }
 @media screen and (max-width: 600px)
 {
+    .test{
+        grid-template-columns: 1fr!important;
+    }
     .partner_grid
     {
         grid-template-columns: 1fr 1fr;
@@ -95,6 +99,9 @@ img.partner-logo.size_title
     #partner_grid > h1
     {
         padding-left: 5px;
+    }
+    #partner_grid h1{
+        font-size: 32px;
     }
 }
 

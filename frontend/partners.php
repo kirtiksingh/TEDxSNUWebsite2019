@@ -29,21 +29,49 @@ $GLOBALS['printPage'] = function()
 		<img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/partners/cl.png">
 		<img class="partner-logo" src="<?echo $GLOBALS['astLink'] ; ?>images/partners/tachser.jpg">
       </div> -->
-	  <h1>Partners</h1>
+	  <h1>Title Sponsor</h1>
 	  <div class="partner_grid title">
-	  <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/cornitos.png">  
+	 	<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/cog.png">  
 	  </div>
+	  <h1>Associate Title Sponsors</h1>
+	  <div class="partner_grid assoc">
+		 <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/dassault.png"> 
+		 <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/indianoil.png">  
+	  </div>
+	  <h1>Partners</h1>
       <div class="partner_grid">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/POPMAN.jpg">
-		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/redwolf.png">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/Sleepy OWl.jpg">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/SUSTAINITY_LOGO-01.jpg">
-		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/peppy.png">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/tss_logo.jpg">
+		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/peppy.png">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/smaash.png">
-      </div>
-
-		<h1>Media Partners</h1>
+      	</div>
+		<div class="partner_grid title">
+	 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/chocopie.png">  
+	  	</div>
+	  <h1>Gifting Partners</h1>
+	  <div class="partner_grid assoc">
+		 <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/redwolf.png"> 
+		 <img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/weaver.png">  
+	  </div>
+	  <h1>Title Snack Partner</h1>
+	  <div class="partner_grid title">
+	 	<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/cornitos.png">  
+	  </div>
+	  <h1>Beverage Partner</h1>
+	  <div class="partner_grid title">
+	 	<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/shunya.png">  
+	  </div>
+	  <h1>Sustainablity Partner</h1>
+	  <div class="partner_grid title">
+	 	<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/oddity.png">  
+	  </div>
+	  <h1>Powered By</h1>
+	  <div class="partner_grid title">
+	 	<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/ntpc.png">  
+	  </div>	
+	  <h1>Media Partners</h1>
       <div class="partner_grid">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/mediapartners/ATKT-eng.png">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/mediapartners/DUExpress_logo.png">
@@ -51,9 +79,6 @@ $GLOBALS['printPage'] = function()
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/mediapartners/social-rush logo.jpg">
 		<img class="partner-logo" src="<?php echo $GLOBALS['astLink'] ; ?>images/partners/mediapartners/socultures logo.jpg">
       </div>
-
-
-	
 	</div>
 <?php
 }
